@@ -1,0 +1,406 @@
+--[[
+Translation file for Pirate Perfection.
+Language: portuguese
+Version: v0.71
+Author: imLuCaSsS
+]]
+{
+        --Common used strings
+        language = 'Portuguese',
+		lan_version = '0.71',
+        back = "Voltar",
+        exit = "Sair",
+        next_page = "Proxima Pagina",
+        prev_page = "Pagina Anterior",
+        retrn = "Voltar",
+        btn_off = ' [Off]',
+        btn_on = ' [On]',
+        btn_close = 'Fechar',
+        host_only = " [Host]",
+       
+        --Welcome dialog
+        welcome_title = 'Ahoy!',
+        welcome_message = 'Parece que e a primeira vez que voce inicia o jogo desde que instalou o Pirate Perfection. Cheque readme.txt e config.lua e edite suas preferencias no arquivo keyconfig.lua.',
+       
+        --Help dialog
+        help_title = 'Bem-vindo ao Pirate Perfection Reborn!',
+        help_site = 'Visite nosso forum',
+        help_credits = 'Creditos',
+        help_desc =
+[[Cheats:
+Numpad 1 - General Payday 2 Cheats/Character menu
+Numpad 2 - Spoof menu/Stealth menu
+Numpad 3 - Jobmenu/Spawn menu
+Numpad 4 - Troll menu
+Numpad 5 - Interaction cheats
+Numpad 6 - Inventory menu
+Numpad 7 - Weapon list menu
+Numpad 8 - Equipment Menu
+Numpad 9 - Mission menu
+------------------------------
+F2 - Mod menu
+F4 - Carry stacker (Enable; Segurar/Jogar bag)
+F5 - User script
+X - xray
+Botao do meio do mouse - teletransporte
+------------------------------
+4 - Colocar ammo bag
+5 - Colocar medic bag
+6 - Colocar sentry gun
+7 - Colocar tripmine
+8 - Colocar ecm jammer
+9 - Colocar grenades case]],
+       
+        -- Main pre-game menu
+        set_level = "Set level to",
+        level_title = "Level menu",
+        reset_money = "Resetar dinheiro",
+        add_money_1 = "Add 1 bilhao cash + 4 bilhoes offshore",
+        add_money_2 = "Add 100 milhoes cash + 400 milhoes offshore",
+        add_money_3 = "Add 10 milhoes cash + 40 milhoes offshore",
+        add_money_4 = "Add 1 milhoes cash + 4 milhoes offshore",
+        money_title = "Menu de dinheiro",
+        reset_points = "Reset skill points",
+        set_points = "Set skill points to",
+        unlock_all_skills = "Destravar todas as habilidades",
+        skill_title = "Skill menu",
+        reset_inf = "Reset infamy level",
+        set_inf = "Set infamy level to",
+        set_inf_points = "Set infamy points to",
+        inf_title = "Infamy menu",
+        unlock_weap_mods = "Destrancar armas mods",
+        unlock_masks = "Destrancar maskaras",
+        unlock_materials = "Destrancar materiais",
+        unlock_textures = "Destrancar texturas",
+        unlock_colors = "Destrancar cores",
+        unlock_all = "Destrancar todos items",
+        inv_title = "Inventory menu",
+        main_menu_title = "Main pre-game menu",
+        unlock_slots = "Destrancar todos slots",
+        other_title = "Outros",
+        unlock_achievements = "Destrancar todos achievements",
+        add_exp = "Add %s exp",
+        clear_inventory_menu = "Remover todos os itens do inventario",
+        lock_all_items = "Trancar todos os items",
+        clear_all_slots = "Limpar inventario",
+        clear_primaries_slots = "Deletar todas as armas primarias",
+        clear_secondaries_slots = "Deletar todas as armas secundarias",
+        clear_masks_slots = "Deletar todas as maskaras",
+        no_weap_mod_limit = "Remover limites de mods de armas",
+       
+        --Specific inventory
+        inv_spec_menu = 'Specific inventory menu',
+        inv_spec_menu_desc = 'Escolha que tipo de coisa voce quer adicionar',
+        inv_spec_masks = 'Masks',
+        inv_spec_colors = 'Colors',
+        inv_spec_materials = 'Materials',
+        inv_spec_textures = 'Patterns',
+        inv_spec_weapon_mods = 'Weapon mods',
+        inv_spec_masks_title = 'All masks',
+        inv_spec_colors_title = 'All colors',
+        inv_spec_materials_title = 'All materials',
+        inv_spec_textures_title = 'All patterns',
+        inv_spec_weapon_mods_title = 'All weapon mods',
+        inv_spec_choose = 'Escolha o que voce quer adicionar',
+       
+        --Character menu
+        char_menu = 'Menu do personagem',
+        togg_godmode = 'MODO DEUS',
+        togg_no_hit = 'atirar sem alardar',
+        togg_jumping = 'pulo alto enquanto corre',
+        togg_speed = 'aumentar velocidade de corrida',
+        togg_ammo = 'municao infinita',
+        togg_bullets = 'balas explosivas',
+        togg_shoot_through_walls = 'atirar pelas paredes',
+        togg_crazyness = 'atirar feito louco',
+        togg_accurate = 'arma sem spray',
+        togg_recoil = 'sem recoil',
+        togg_melee_range = 'facada a alta distancia',
+        secure_carry = 'Assegurar maletas',
+        going_to_jail = 'Ser preso',
+        outta_jail = 'Escapar da prisao',
+        additional_option = "opcoes adicionais",
+        no_headbob = "No headbob",
+        increase_standard_speed = "Aumentar velocidade padrao",
+        inf_ammo_reload = "Municao infinita com reload",
+        togg_kill_in_one_hit = "Aumentar dano do tiro",
+        hacked_maskoff = "Retirar maskara",
+        togg_infinite_stamina = "Correr infinitamente",
+        togg_no_bag_cooldown = "Sem contagem regressiva para bag",
+        togg_increase_melee_dmg = "Aumentar dano de faca",
+        togg_no_flash_bangs = "Sem flash bangs",
+        togg_no_fall_damage = "Sem dano de queda",
+       
+        --Tools
+        unlock_all_preplaning = "Destravar todos elementos preplanos",
+        unlock_all_assets = "Destravar todos assets",
+        tools_menu = "Tools menu",
+        force_game_start = 'Forcar o comeco do jogo(Host)',
+        spoof_detection_lvl = 'Reduzir nivel de deteccao',
+       
+        --Interaction menu
+        intm_title = "7 diferentes tipos de interecao",
+        intm_description = "Insaciavel!",
+        opn_all_vaults = "Abrir todos depositos e cofres",
+        c4_doors = "Explodir portas",
+        remove_bags = "Remover todos carrydrop do mapa",
+        restore_drills = "Colocar/Atualizar/Restaurar todas drills",
+        no_rats_for_you = "Limpar os componentes quimicos",
+        grab_small_loot = "Pegar todas joias pequenas",
+        grab_bags = "Pegar todas as maletas(Carry stacker sera ativado)",
+        grab_packages = "Pegar todas gage packages",
+        hack_machines = "Rapida Election Day, Day 2",
+        hack_computers = "Hackear todos os computadores (Big Bank)",
+        bag_people = 'Bag em todos os corpos',
+        barricade_windows = 'Bloquear todas as janelas',
+        answer_phones = 'Responder todos os telefones',
+        --Interaction menu, patches
+        intm_patches = 'Modificacoes de Interacao',
+        patch_int_all = 'Interagir com tudo',
+        patch_int_speed1 = 'Interecao instantanea',
+        patch_int_speed2 = 'Interecao rapida',
+        patch_int_distance = 'Interecao a infinita distancia',
+        patch_int_nowalls  = 'Interagir pelas paredes',
+        patch_int_reboard = 'Toggle reboarding',
+        patch_interact_and_look = "Interagir com o que esta em volta",
+       
+        -- Stealth menu
+        stealth_menu = "Stealth menu",
+        stealth_inf_menu = "Infinitas opcoes para stealth",
+        inf_cable = "Cabos infinitos",
+        inf_ecm_battery = "EMC bateria infinita",
+        inf_converts = "conversoes infinitas",
+        dis_cams = "desativar cameras",
+        inf_pager_answ = "responder pagers infinitos",
+        inf_body_bags = "body bag infinita",
+        steal_pagers = "roubar pager em morte por facada",
+        add_ecm = "Adicionar ecm jammer",
+        inf_follow_hostages = "infinitos civis podem te seguir",
+        kill_all_npc = "Matar todos npc no mapa (Full stealth)",
+        npc_menu = "NPC options",
+        remote_camera_access = "Acesso remoto as cameras",
+        cops_dont_shoot = "policiais nao atiram em voce",
+        people_dont_call_police = "pessoas param de chamar a policia",
+        prevent_panic_buttons = "Desativar botoes de alarme",
+        lobotomize_ai = "Lobotomize todos npc no mapa",
+        dont_shout_at_tied = "Guardas nao veem civis amarrados",
+       
+        --Job menu
+        job_menu_title = 'Menu trabalhos',
+        job_menu_description = 'Todos os niveis possiveis de jogar aqui',
+        tpro = 'Trabalho pro',
+        job_menu_single = 'Toggle jogador unico hosting',
+        job_menu_diff = 'Mudar dificuldade',
+        job_menu_diff_c = ' (Atual: %s)',
+        job_menu_diff_t = 'Escolher nova dificuldade',
+        diff_easy = 'Facil',
+        diff_normal = 'Normal',
+        diff_hard = 'Dificil',
+        diff_vhard = 'Muito dificil',
+        diff_overkill = 'Overkill',
+        diff_deathwish = 'Deathwish',
+       
+        -- Spoof name menu
+        spoof_menu = "Menu de apelidos",
+        change_name = "Mude seu nome",
+        spoof_standard_names = "Standard names",
+        spoof_donors_names = "Nome de doadores",
+        spoof_pirates_names = "Pirate names",
+       
+        -- Inventory menu
+        inventory_menu = "Inventario menu",
+        inventory_menu_desc = "Escolha maleta que voce quer dar spawn",
+        add_items_menu = "Adicionar items ao inventario",
+        togg_rain_bags = "chovendo maleta",
+        inventory_give_cash = 'De dinheiro instantaneo',
+        inventory_money_title = 'Menu de dinheiro',
+        secure_turrets_lg = 'Secure turrets (Host)',
+        spawn_ammo = "Criar ammo bag",
+        spawn_artifact_statue = "Criar artifact statue",
+        spawn_cage_bag = "Criar cage bag",
+        spawn_circuit = "Criar circuit",
+        spawn_coke = "Criar cocaine bag",
+        spawn_diamonds = "Criar diamond bag",
+        spawn_engine = "Criar engine",
+        spawn_gold = "Criar gold bag",
+        spawn_grenades = "Criar grenade bag",
+        spawn_lance_bag = "Criar thermal drill",
+        spawn_lance_bag_large = "Criar the beast",
+        spawn_meth = "Criar meth bag",
+        spawn_money = "Criar money bag",
+        spawn_painting = "Criar painting",
+        spawn_person = "Criar body bag",
+        spawn_samurai_suit = "Criar samurai suit",
+        spawn_turret = "Criar turret bag",
+        spawn_weapon = "Criar weapon bag",
+        spawn_weapons = "Criar weapons bag",
+        -- Items
+        lance_part = "Adicionar lance part",
+        crowbar = "Adicionar crowbar",
+        planks = "Adicionar planks",
+        lance = "Adicionar lance",
+        acid = "Adicionar acid",
+        bank_manager_key = "Adicionar bank manager key",
+        thermite_paste = "Adicionar thermite paste",
+        keychain = "Adicionar keychain",
+        boards = "Adicionar boards",
+        hydrogen_chloride = "Adicionar hydrogen chloride",
+        caustic_soda = "Adicionar caustic soda",
+        cable_tie = "Adicionar cable-tie",
+        chavez_key = "Adicionar chavez key",
+ 
+        -- Spawn menu
+        spawn_menu = "Spawn menu",
+        spawn_cops_menu = "Criar unidades policiais",
+        spawn_fbi_menu = "Criar unidades do FBI",
+        spawn_swats_menu = "Criar unidades da SWAT",
+        spawn_gangs_menu = "Criar unidades de gang",
+        spawn_bg_cops_menu = "Criar seguranca policial",
+        spawn_bg_fbi_menu = "Criar seguranca do FBI",
+        spawn_bg_swats_menu = "Criar seguranca da SWAT ",
+        spawn_bg_gangs_menu = "Criar seguranca de gang",
+        spawn_civs_menu = "Criar unidades civis",
+        spawn_settings = "Criar configuracoes",
+        spawn_load_packages = "Carregar packages",
+        spawn_position_menu = "Spawn configuracao de posicao",
+        spawn_on_spawn_point = "Definir spawn no ponto de spawn",
+        spawn_on_ray = "Definir spawn na posicao da mira",
+        spawn_amount_menu = "Quantidade de unidades para Criar",
+        spawn_set_to = "Set to %s",
+        no_units_on_map = "Voce nao pode dar spawn nessas unidades nesse mapa",
+        spawn_civ_anim_menu = "Civis spawn animacao",
+        spawn_ene_anim_menu = "Enemy spawn animation",
+        spawn_other_anim_menu = "Other spawn animation",
+        spawn_props_menu = "Spawn props (experimental)",
+        spawn_props_menu_desc = "Displaying units that loaded on map and have network sync\nSome of these units can crash you!",
+        spawn_gage_package = "Criar gage packages",      
+ 
+        -- Tips
+        spawn_menu_tips = {
+                "Dica: para salvar configuracoes, edite o config file",
+                "Dica: unidades que voce pode dar spawn",
+                "Dica: carregue um pacote para dar spawn em mais unidades",
+        },
+        mod_menu_tips = {
+                "Dica: carregue somente um mod por vez",
+        },
+       
+        --Equipment menu
+        equip_menu_title = 'Equipamento menu',
+        equip_sentry_infammo = 'Sentry gun municao infinita',
+        equip_sentry_inv = 'Sentry gun invulneravel',
+        equip_sentry_nades = 'Sentry gun atira granada',
+        equip_infinite_bags = 'Equipamentos infinitos',
+        equip_drill_service = 'Drill conserta sozinha',
+        equip_drill_instant = 'Drill instantanea',
+        equip_inf_equipments = "Equipar infinitos equipamentos",
+        equip_instant_deployments = "Implantacao instantanea",
+       
+        -- Lego menu
+        lego_toggle = "Recorder %s",
+        lego_choose_file = "Escolha um arquivo para escrever",
+        lego_load_file = "Carregar arquivo",
+        lego_clear_file = "Limpar arquivo",
+        lego_menu = "Lego menu",
+       
+        --Exception messages
+        except_ok = 'OK',
+        except_cancel = 'CANCELAR',
+        except_ignore_futher = ' (e nao me mostre mais esse tipo de avisos)',
+        except_title_warn = 'Atencao!!!',
+        except_equipment_warn = 'Voce esta tentando dar spawn em mais equipamentos do que o permitido ou colocar diferentes items que foram postos antes! Essa tentativa foi bloqueada, mas se voce pressionar Ok, avisos nao iram mais aparecer mas fazer isso pode te marcar como CHEATER se voce estiver jogando no servidor de alguem!',
+        except_grenades_warn = 'Voce esta tentando jogar mais que 3 granadas! Essa acao foi bloqueada por enquanto, pressione ok para ignorar esse aviso e parar de limitar seu numero de granadas. Jogar mais granadas que o permitido pode te marcar como CHEATER!',
+        except_crash_title = 'Crash detectado',
+        except_crash_warn = 'Parece que o jogo foi fechado de um modo inesperado, voce quer ver o crash log ?',
+        except_yes = 'Sim',
+        except_no = 'Nao',
+ 
+        -- Troll menu
+        troll_menu = "Troll menu",
+        troll_cops_to_bulld = "Policiais mortos viram bulldozers (Host) %s",
+        troll_take_mask = "Tirar a maskara",
+        troll_interaction_with_other = "Interagir com outros jogadores",
+        troll_interact_with = "Interagir com %s (id - %s)",
+        troll_no_players = "Sem outros jogadores no mapa",
+        troll_spawn_gold_on_tm = "Drop gold bags no time",
+        troll_spawn_money_on_tm = "Drop money bags no time",
+        troll_spawn_ammo_on_tm = "Drop ammo bags no time",
+        troll_teleport_to = "Teletransportar para o jogador",
+        troll_give_ammo_bag = "Dar a ele ammo bag",
+        troll_give_ammo_bag_to_tm = "Dar ammo bag ao time",
+        troll_give_ecm = "Dar a ele ecm jammer",
+        troll_give_ecm_to_tm = "Dar ecm jammer ao time",
+        troll_give_sentry = "Dar a ele sentry gun",
+        troll_give_sentry_to_tm = "Dar sentry gun ao time",
+        troll_give_tripmine = "Dar a ele trip mine",
+        troll_give_tripmine_to_tm = "Dar trip mine ao time",
+        troll_give_medic_bag = "Dar a ele medic bag",
+        troll_give_medic_bag_to_tm = "Dar medic bag ao time",
+        troll_spawn_gold_on_peer = "Drop gold bag nele",
+        troll_spawn_money_on_peer = "Drop money bag nele",
+        troll_spawn_ammo_on_peer = "Drop ammo bag nele",
+        troll_change_spawn_pos = "Mudar spawn position para novos jogadores",
+        troll_send_peer_in_custody = "Mandar jogador para custodia",
+        troll_release_player = "Liberar jogador da custodia",
+        troll_tase_player = "Tase jogador",
+        troll_arrest_player = "Prender jogador",
+        troll_kill_player = "Matar jogador",
+        troll_standart_player = "Mudar o status to time para modo padrao",
+        troll_teleport_player = "Teletransportar jogador para sua posicao",
+        troll_send_tm_in_custody = "Mandar time para custodia",
+        troll_release_tm_from_jail = "Tirar time da custodia",
+        troll_tase_tm = "Tase no time",
+        troll_arrest_tm = "Prender time",
+        troll_kill_tm = "Matar o time",
+        troll_standard_tm = "Mudar o status to time para modo padrao",
+        troll_increase_ladder = "Aumentar a altura da escada e largura",
+        troll_del_units = "Deletar todas as unidades sincronizadas do mapa",
+        troll_change_own_state = "Interagir consigo mesmo",
+        troll_activate_elements = "Ativar elementos",
+        troll_open_doors = "Abrir todas as portas",
+        troll_close_doors = "Fechar todas as portas",
+        troll_open_vault = "Abrir Cofre",
+        troll_close_vault = "Fechar Cofre",
+        troll_remove_head = "Remover a cabeca dos inimigos",
+        troll_fill_deposits_money = "Encher caixas de deposito com dinheiro",
+       
+        --Weapon menu
+        weapon_menu_title = 'Lista de armas',
+        weapons_from_inventory = 'Escolher arma do inventario',
+        weapon_primaries = 'Armas primarias',
+        weapon_secondaries = 'Armas secundarias',
+       
+        -- Mod menu
+        mod_menu = "Mod menu",
+        mod_superman = "Superman mod",
+        mod_driver = "Driver mod",
+        mod_lego = "Lego mod",
+        mod_aimbot = "AimBot mod",
+       
+        --Mission menu
+        mission_menu_title = 'Mission menu',
+        mission_menu_desc = 'Scripts for specific heists',
+        auto_cooker = 'Cozinhar automaticamente',
+        way_pointing = 'Objects waypointing',
+        debug_hud = 'Toggle debug hud',
+        mission_events = "Eventos de missao",
+        assault = "Chamar assalto",
+        heli = "Chamar Helicoptero",
+        open_vault = "Abrir porta do banco",
+        call_car = "Chamar carro da policia",
+        convert_all = 'Converter todos os inimigos vivos',
+        intimidator = 'Intimidador',
+       
+        --Update dialog
+        update_title = 'Novo update disponivel!',
+        update_desc = 'Nova versao (v. %s) disponivel, voce quer visitar o forum na secao de downloads ?',
+        update_goto = 'Visitar secao de download',
+       
+        --Normalizer
+        Normalizer = 'Atencao!!! Voce vai usar normalizador!',
+        Areyousure = 'Voce tem certeza que quer restaurar todas modificacoes ao modo padrao ?',
+ 
+        -- Configuration menu
+        config_menu = "Menu de configuracao",
+        config_save_all = "Salvar configuracoes atuais",
+}

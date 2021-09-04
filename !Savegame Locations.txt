@@ -1,0 +1,13 @@
+-- List of all Payday 2 Save Game Locations
+
+1. Main Savegame Location:
+	"...\Steam\userdata\%Your_User_ID%\218620\remote"
+
+2. Backup Savegame Location:
+	"%appdata%\..\Local\PAYDAY 2\saves\%Your_User_ID%"
+
+3. Steam Cloud Savegame Backup:
+	Right click on the Game
+	Properties
+	Updates
+	Un/Check Steam Clound Synchronisation

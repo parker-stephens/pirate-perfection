@@ -1,0 +1,22 @@
+--Purpose: instant interaction for team
+--Note: premiums release only!
+
+plugins:new_plugin('interact_team')
+
+VERSION = '1.0'
+
+CATEGORY = 'interaction'
+
+local M_interaction = managers.interaction
+local backuper = backuper
+local backup = backuper.backup
+
+function MAIN()
+	show_hint("(instant interaction for team is V.I.P. Only)")
+end
+
+function UNLOAD()
+	show_hint("(instant interaction for team is V.I.P. Only)")
+end
+
+FINALIZE()

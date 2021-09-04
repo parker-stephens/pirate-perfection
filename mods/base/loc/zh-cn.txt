@@ -1,0 +1,94 @@
+{
+	"blt_options_menu_blt_mods" : "BLT 模组",
+	"blt_options_menu_blt_mods_desc" : "更新和管理已安装的 BLT 模组",
+	"blt_options_menu_lua_mod_options" : "模组选项",
+	"blt_options_menu_lua_mod_options_desc" : "设置和自定义 BLT 模组选项",
+	"blt_options_menu_keybinds" : "模组键位",
+	"blt_options_menu_keybinds_desc" : "设置 BLT 模组键位",
+
+	"blt_mod_outdated" : "这是个老版本模组，不再被支持， 模组的开发者必须更新模组以便支持最新版 BLT，使用本模组可能引起游戏报错或者崩溃。",
+	"blt_mod_missing_dependencies" : "本模组依赖了其它未安装的模组，因此已被禁用。",
+	"blt_mod_missing_dependency" : "    缺少: $dependency",
+	"blt_mod_missing_dependency_download" : "    缺少: $dependency，添加到下载管理器",
+	"blt_mod_dependency_disabled" : "本模组依赖了其它未启用的模组，因此已被禁用。",
+	"blt_mod_disabled_dependency" : "    禁用: $dependency",
+
+	"blt_mod_info_author" : "作者",
+	"blt_mod_info_contact" : "联系方式",
+
+	"blt_mod_state_enabled" : "启用",
+	"blt_mod_state_enabled_desc" : "游戏启动时加载模组。",
+	"blt_mod_state_disabled" : "禁用",
+	"blt_mod_state_disabled_desc" : "游戏启动时不加载模组。",
+	"blt_mod_state_forced_disabled" : "禁用",
+	"blt_mod_state_forced_disabled_desc" : "模组已过期，不能在游戏启动时加载。",
+
+	"blt_mod_state_enabled_on_restart" : "重启启用",
+	"blt_mod_state_enabled_on_restart_desc" : "模组将在下次游戏重启时启用。",
+	"blt_mod_state_disabled_on_restart" : "重启禁用",
+	"blt_mod_state_disabled_on_restart_desc" : "模组将在下次游戏重启时禁用。",
+
+	"blt_mod_safemode_enabled" : "安全模式:\n启用",
+	"blt_mod_safemode_enabled_help" : "当游戏有重大更新时自动禁用模组以防止游戏崩溃。",
+	"blt_mod_safemode_disabled" : "安全模式:\n禁用",
+	"blt_mod_safemode_disabled_help" : "当游戏有重大更新时不自动禁用模组。",
+
+	"blt_mod_updates_enabled" : "自动更新:\n启用",
+	"blt_mod_updates_enabled_help" : "自动从 PaydayMods 服务器检查模组的最新版本。",
+	"blt_mod_updates_disabled" : "自动更新:\n禁用",
+	"blt_mod_updates_disabled_help" : "不从 PaydayMods 服务器检查模组的最新版本。",
+
+	"blt_mod_check_for_updates" : "检查更新",
+	"blt_mod_check_for_updates_desc" : "立即从 PaydayMods 服务器检查更新。",
+
+	"blt_mod_toggle_dev" : "切换开发者信息",
+	"blt_mod_toggle_dev_desc" : "显示/隐藏模组开发者的信息",
+
+	"blt_update_mod_title" : "$name 更新",
+	"blt_update_mod_up_to_date" : "$name 已更新到最新版。",
+	"blt_update_mod_error" : "无法检查模组是否已经更新到最新版。\n$reason",
+	"blt_update_mod_available" : "新版本 $name 已经发布！已添加到下载管理器！",
+	"blt_update_mod_goto_manager" : "打开下载管理器",
+
+	"blt_update_dll_title" : "关键更新",
+	"blt_update_dll_text" : "新的 BLT DLL 已发布，你需要手动从网站下载并重新安装 BLT。\n\n请尽快更新这个关键更新以便修复可能引起游戏崩溃问题。",
+	"blt_update_dll_goto_website" : "去 PaydayMods 下载",
+	"blt_update_later" : "稍后更新",
+	
+	"blt_download_manager" : "下载管理器",
+	"blt_download_manager_help" : "更新 BLT 模组。\n看在上帝的份上请更新你的模组。",
+	"blt_download_ready" : "准备下载",
+	"blt_download_waiting" : "等待中...",
+	"blt_download_downloading" : "下载中... $bytes;b/$total_bytes;b",
+	"blt_download_saving" : "保存中...",
+	"blt_download_extracting" : "解压中...",
+	"blt_download_verifying" : "验证中...",
+	"blt_download_failed" : "失败！重试？",
+	"blt_download_done" : "完成！",
+	"blt_download_dependency" : "$dependency，被 $mod 依赖",
+	"blt_download_all" : "全部更新",
+
+	"blt_checking_updates" : "正在检查更新",
+	"blt_checking_updates_help" : "正在从 PaydayMods 服务器检查模组更新，请稍等...",
+	"blt_checking_updates_required" : "需要更新",
+	"blt_checking_updates_required_help" : "模组新版本已发布，打开下载管理器进行更新！",
+	"blt_view_patch_notes" : "查看更新日志",
+	"blt_checking_updates_none_required" : "已是最新版",
+	"blt_checking_updates_none_required_help" : "没有需要更新的模组！",
+
+	"blt_language_select" : "语言",
+	"blt_language_select_desc" : "选择 BLT 的显示语言",
+	"blt_language_en" : "英语（English）",
+	"blt_language_cht" : "繁体中文",
+	"blt_language_de" : "德语",
+	"blt_language_fr" : "法语",
+	"blt_language_ru" : "俄语",
+	"blt_language_tr" : "土耳其语",
+	"blt_language_id" : "印度尼西亚语",
+	"blt_language_it" : "意大利语",
+	"blt_language_zh-cn" : "简体中文"
+
+	"blt_no_image" : "无图片",
+	"blt_no_name" : "无名称",
+	"blt_no_desc" : "无描述"
+}
