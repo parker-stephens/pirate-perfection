@@ -1,0 +1,1026 @@
+--[[
+Translation file for Pirate Perfection.
+Language: English
+Version: v2.0.0
+Author(s): Baddog-11
+]]
+{
+-- Common used strings
+	language											=	"English",
+	lan_version										=	"2.0.0",
+	back												=	"Back",
+	exit												=	"Exit",
+	next_page										=	"Next page",
+	prev_page										=	"Previous page",
+	retrn												=	"Return",
+	btn_off											=	"[ Off ]",
+	btn_on											=	"[ On ]",
+	btn_close										=	"Close",
+	host_only										=	"[ Host Only ] ",
+	btn_add											=	"Add",
+	btn_deb											=	"Deduct",
+	save												=	"Save",
+	reset												=	"Reset",
+	delete											=	"Delete",
+	load												=	"Load",
+	rename											=	"Rename",
+	bind_to_key										=	"Bind to key",
+	add_favorite									=	"Add to favorite",
+
+-- Welcome dialog
+	welcome_title									=	"Ahoy !",
+	welcome_message								=	[[It seems that this is your first launch since you have installed
+
+The Pirate Perfection Reborn Trainer.
+
+Checkout the "Read Me!.txt" and "Trainer/Config.lua" if you haven't already,
+and edit the Key bindings in "Trainer/keyconfig.lua" to your preference.
+]],
+
+-- Help dialog
+	help_title										=	"Help Menu",
+	help_desc										=	"Welcome to Pirate Perfection Reborn !\nClick this Buttons for more Informations about the Trainer",
+	help_site										=	"Visit our forum",
+	help_title_t									=	"Help Menu",
+	help_nokey										=	"Not bound",
+	help_bound										=	"Bound Keys",
+	help_carrystacker								=	"Carry Stacker Control",
+	help_user_script								=	"User Script",
+	help_replenish									=	"Replenish",
+	help_instant_win								=	"Instants Win",
+	help_teleport									=	"Teleport",
+
+-- Credits
+	help_credits									=	"Credits",
+	help_credits_desc								=	
+[[
+:!: The Crew :!:
+
+:X: CAPTAINS :X: | -x- Administrators -x-
+Harfatus & PirateCaptain
+
+:X: QUARTER MASTERS :X: | -x- Moderators -x-
+Baddog-11 & Sanguin & v00d00
+
+:X: HENCHMEN :X: | -x- Contributers -x-
+Ducky & NewComer & PiratePanda_ & pococurante
+SuperKad & The HiVE & The Wraith
+Transcend & Uraz88 & Chinamod
+
+:X: MERCENARIES :X: | -x- Creative Team -x-
+Anonymous Hacker & DaGrafX & december4th
+Feralux & Hastabrand & LagMyAss
+Nocturnal & Powder Monkey & Rainbow Dash Weather Mare
+Stradivarix & Zepher MoDz
+
+:X: In Memory of retired Staff Crew Members :X:
+Araytha & Asrien & Baldwin
+Davy Jones & Hastabrand & Simplity
+TheGamingLOL & ThisJazzman & rank
+
+And of course the thousands of you fantastic, generous Patrons, V.I.P.s and Pros
+that believe in our efforts to create Trainers worthy of the name...
+//// PIRATE PERFECTION \\\\]],
+
+-- Keybinds
+	help_keybinds									=	"Keybinds",
+	help_keybinds_desc							=	
+	[[Default binds for cheats:
+«¡--------- These Keybinds Work Both Main-Menu & In-Game ---------¡»
+F1 : Help Menu
+F2 : Configuration Menu
+F3 : Main Pre-Game Menu / Character Menu
+F4 : Job Menu / Stealth Menu
+F5 : Spoof Name Menu / Troll Menu
+Page_UP : Tools Menu
+Page_Down : Music Menu
+Home : Normalizer Menu
+Delete : User Self-made Script
+«|--------------- These Keybinds Work Only In-Game ---------------|»
+F6 : Interaction Menu
+F7 : Mission Menu
+F8 : Inventory Menu
+F9 : Equipment Menu
+F10 : Weapons Menu
+F11 : Mod Menu
+F12 : Spawn Menu
+Insert : Carry Stacker Control (Enable; Push/pop bag)
+End : Instant Win
+X : X-Ray Vision
+Z : Replenish
+5 : Equipment Placing Menu
+Middle Mouse Button : teleport
+Extra Mouse Button 1 : Slow Motion
+«!----------------------------------------------------------------!»]],
+
+-- Cheatertag
+	help_cheatertag								=	"Why do I get Tagged as Cheater?",
+	help_cheatertag_desc							=	
+	[[From client side: (You are the client.)
+Spawning any equipment, different from last equipment you spawned.
+Throwing more than the allowed amount of grenades.
+(Picking up a grenade from grenades crate case increases the limit.)
+Spawning more than the allowed amount of equipment.
+Attempting to secure a bag different from what you are currently carrying.
+(When you secure bag, host suspects that you no longer have any bag on you.)
+Attempting to spawn a bag different from what you are currently carrying.
+(When you drop any bag, host suspects that you no longer have any bags.)
+Wearing an item from a DLC you don't own.
+(This is the most common way of being detected.)
+Equipping a Legendary skin.
+(Which is only because of a massive convenience of the weapon mods being marked as "unobtainable".)
+
+From server side: (You are the host.)
+Spawning equipment different from the last equipment you spawned.
+Throwing more than the allowed amount of grenades.
+(Picking up a grenade from grenades crate case increases the limit.)
+Spawning more than the allowed amount of equipment.
+Wearing an item or hosting a heist from a DLC you don't own
+(This is the most common way of being detected.)
+Equipping a Legendary skin.
+(Which is only because of a massive convenience of the weapon mods being marked as "unobtainable".)]],
+
+-- Base pre-game menu
+	base_menu										=	"PPR Setup Menu",
+	base_menu_desc									=	"Change the main options of Pirate Perfection",
+	base_selected									=	"Selected",
+	base_none										=	"NONE",
+	base_disable									=	"Disable",
+	base_menu_restart								=	"You will have to restart your Game\nfor all the changes to take effect!\n",
+
+	base_HUD_Announce_Sub						=	"HUD-Announcements & Updates",
+	base_HUD_Announce_Sub_desc					=	"",
+	base_HUD											=	"Show PPR HUD",
+	base_HUD_VersionText							=	"Show Menu Version",
+	base_HUD_MovingText							=	"Show Top Moving Text",
+	base_announcements							=	"Show PPR Announcements",
+	base_announcements_interval				=	"Announcement Check Time",
+	base_check_for_updates						=	"Check For Updates",
+	base_RSSFeed									=	"Show PPR RSS Feed",
+
+	base_General_Sub								=	"General",
+	base_General_Sub_desc						=	"",
+	base_Language									=	"Language",
+	base_Language_desc							=	"Choose from the available languages",
+	base_StraightToMainMenu						=	"Straight to main menu",
+	base_NoDropinPause							=	"Disable Drop-in Pause",
+	base_FreeBlackMarket							=	"Free Black Market",
+	base_FreeAssets								=	"Free Assets",
+	base_FreePreplanning							=	"Free Preplanning",
+	base_FreeCrimeSpree							=	"Free Crime Spree",
+	base_HostMatters								=	"Force Host Preplanning Vote",
+	base_NoStatsSynced							=	"Block Stats Sync",
+	base_AllPerks									=	"Use All Perk Decks",
+	base_Extend_Inventory_Slots				=	"Extend Inventory Slots",
+	base_DisableAutoKick							=	"Disable Auto-Kick Cheaters",
+	base_Crosshair									=	"Crosshair",
+	base_ReduceDetectionLevel					=	"Reduce Detection Level (Pro & V.I.P. only)",
+	base_NameSpoof									=	"Spoof Name (V.I.P. only)",
+	
+	base_Unlocker_Sub								=	"Unlocker",
+	base_Unlocker_Sub_desc						=	"",
+	base_DLCUnlocker								=	"DLC Unlocker",
+	base_unlocked_hoxton							=	"Force Unlock Hoxton",
+	base_unlocked_arbiter						=	"Force Unlock the Arbiter Grenade Launcher",
+	base_unlocked_aldstone_items				=	"Force Unlock All Aldstone Items",
+	base_AllWeaponSkins							=	"Force Unlock All Weapon Skins",
+	base_CrewUnlocker								=	"Force Unlock All Crew Member Abilities & Boosts",
+	base_NoSkinMods								=	"Prevent Skins From Forcing Mods",
+	base_AllArmorSkins							=	"Force Unlock All Armor Skins",
+	
+	base_Anticheat_Sub							=	"Anti-Cheat",
+	base_Anticheat_Sub_desc						=	"",
+	base_Hide_All_Mods							=	"Hide All Mods ",
+	base_Hide_Pirate_Perfection				=	"Hide Pirate Perfection from Mods List",
+	base_non_modded_lobby						=	"Mark your Lobby as Not Modded (V.I.P. only)",
+	base_DisableAnticheat						=	"Disable Anti-Cheat",
+	base_PreventEquipDetecting					=	"Secret Equipment Spawn (V.I.P. Only)",
+
+	base_Equipment_Sub							=	"Equipment",
+	base_Equipment_Sub_desc						=	"",
+	base_far_placements							=	"Far Equipment Placing",
+	base_equipment_place_key					=	"Equipment Menu: Place Key",
+
+	base_Misc_Sub									=	"Miscellaneous",
+	base_Misc_Sub_desc							=	"",
+	base_NoCivilianPenality						=	"No Civilian Penalty",
+	base_NoInvisibleWalls						=	"No Invisible Walls",
+	base_RestartProMissions						=	"Allow Restart Pro Missions",
+	base_RestartJobs								=	"Allow Restart Jobs",
+	base_NoEscapeTimer							=	"Disable Escape Timer",
+
+	base_ControlCheats							=	"Warn Equipment Cheating",
+	base_ControlCheats_desc						=	"Prevent you from cheating equipment and grenades with a pop-up warning",
+	base_ControlCheats_false					=	"Always off",
+	base_ControlCheats_1							=	"When you're client",
+	base_ControlCheats_2							=	"Always on",
+
+	base_Lasercolor								=	"Laser Color",
+	base_Lasercolor_desc							=	"Change the color of your laser sight",
+	base_lasercolor_ins							=	"1 = Dark / 255 = Bright",
+	base_lasercolor_R								=	"Red",
+	base_lasercolor_G								=	"Green",
+	base_lasercolor_B								=	"Blue",
+	base_DontFreezeRagdolls						=	"Don't Freeze Ragdolls",
+	base_DontDisposeRagdolls					=	"Don't Remove Ragdolls",
+	base_SecureAll									=	"Secure Any Bag Type",
+
+	base_flying_sub								=	"Fly / Noclip & Teleport",
+	base_flying_sub_desc							=	"",
+	base_FreeFlightTeleport						=	"Free-Flight Teleport",
+	base_NoClipSpeed								=	"No-clip Speed",
+	base_TeleportPenetrate						=	"Teleport: Penetrate Through Walls",	
+
+	base_KillAll_sub								=	"Kill All NPCs",
+	base_KillAll_sub_desc						=	"",
+	base_KillAllIgnoreTied						=	"Ignore Tied Hostages",
+	base_KillAllIgnoreCivilians				=	"Ignore Civilians",
+	base_KillAllIgnoreEnemies					=	"Ignore Enemies",
+	base_KillAllTouchCameras					=	"Kill Cameras",
+
+	base_character_sub							=	"Character",
+	base_character_sub_desc						=	"",
+	base_JumpHeightMultiplier					=	"Jump Height Multiplier (Def: 5)",
+	base_RunSpeed									=	"Max Run Speed (Def: 115)",
+
+	base_job_sub									=	"Job Menu / Crime.net",
+	base_job_sub_desc								=	"",
+	base_jobmenu_def_difficulty				=	"Default Difficulty",
+	base_jobmenu_def_difficulty_desc			=	"Choose the default difficulty when using the Job Menu",
+	easy												=	"0X.Easy",
+	normal											=	"00.Normal",
+	hard												=	"01.Hard",
+	overkill											=	"02.Very Hard",
+	overkill_145									=	"03.Overkill",
+	easy_wish										=	"04.Mayhem",
+	overkill_290									=	"05.Death Wish",
+	sm_wish											=	"06.Death Sentence",
+	base_jobmenu_singleplayer					=	"Default Singleplayer",
+	base_EnableJobFix								=	"View Difficulty Cap Lobbies",
+
+	base_Spawn_sub									=	"Spawn Menu",
+	base_Spawn_sub_desc							=	"",
+	base_SpawnUnitsAmount						=	"Amount Per Spawn",
+	base_SpawnPos									=	"Spawn Position",
+	base_SpawnPos_desc							=	"Choose where NPCs will spawn when you spawn them",
+	base_SpawnPos_ray								=	"At crosshair",
+	base_SpawnPos_spawn_point					=	"At next game spawn point",
+	base_SpawnPos_random_spawn_point			=	"At random game spawn point",
+	base_SpawnUnitKey								=	"Spawn Key",
+
+	base_inventory_sub							=	"Inventory (In-game)",
+	base_inventory_sub_desc						=	"",
+	base_rain_bags_amount						=	"Rain Bags Amount",
+	base_SpawnBagsAmount							=	"Spawn Bags Amount",
+	base_SpawnBagKey								=	"Spawn Bags Spawn Key",
+	base_TrollAmountBags							=	"Troll Bags Amount (Pro & V.I.P. Only)",	
+
+	base_slow_sub									=	"Slow Motion",
+	base_slow_sub_desc							=	"",
+	base_SmSpeed									=	"Slow Speed (%)",
+	base_SmSlowPlayer								=	"Affects Player?",
+	base_slowmo_protect							=	"Prevent Being Slowed",
+	base_slowmo_reverse							=	"Reverse Slowmo To Sender",
+
+	base_xray_sub									=	"X-Ray Vision",
+	base_xray_sub_desc							=	"",
+	base_color_xray_ins							=	"1 = Dark / 255 = Bright",
+	base_xraycolor_R								=	"Red",
+	base_xraycolor_G								=	"Green",
+	base_xraycolor_B								=	"Blue",
+	base_xray_Cams									=	"Highlight Cameras",
+	base_xray_CamsCol								=	"Camera Color",
+	base_xray_CamsCol_desc						=	"Change the color cameras highlight as with X-Ray",
+	base_xray_Civ									=	"Highlight Civilians",
+	base_xray_CivCol								=	"Civilian Color",
+	base_xray_CivCol_desc						=	"Change the color civilians highlight as with X-Ray",
+	base_xray_CivKeyCol							=	"Civilian With Keycard Color",
+	base_xray_CivKeyCol_desc					=	"Change the color civilians with keycards highlight as with X-Ray",
+	base_xray_Cops									=	"Highlight Enemies",
+	base_xray_CopsCol								=	"Enemy Color",
+	base_xray_CopsCol_desc						=	"Change the color enemies highlight as with X-Ray",
+	base_xray_CopsKeyCol							=	"Enemy With Keycard Color",
+	base_xray_CopsKeyCol_desc					=	"Change the color enemies with keycards highlight as with X-Ray",
+	base_xray_SpecialCol							=	"Special Enemy Color",
+	base_xray_SpecialCol_desc					=	"Change the color special enemies highlight as with X-Ray",
+	base_xray_SniperCol							=	"Sniper Color",
+	base_xray_SniperCol_desc					=	"Change the color snipers highlight as with X-Ray",
+	base_xray_Friendly							=	"Converted Enemy Color",
+	base_xray_Friendly_desc						=	"Change the color converted enemies highlight as with X-Ray",
+	base_xray_Items								=	"Highlight Important Items",
+
+	base_aimbot_sub								=	"AimBot",
+	base_aimbot_sub_desc							=	"",
+	base_ShootThroughWalls						=	"Shoot Through Walls",
+	base_MaxAimDist								=	"Max Aim Distance",
+	base_AimbotInfAmmo							=	"Infinite Ammo",
+	base_AimbotDamageMul							=	"Damage Multiplier",
+	base_AimMode									=	"Aim Mode",
+	base_AimMode_desc								=	"Choose the behavior the AimBot will have",
+	base_AimMode_1									=	"Only auto shoot",
+	base_AimMode_2									=	"Only aim",
+	base_AimMode_3									=	"Auto aim and shoot",
+	base_RightClick								=	"Right Mouse Hold Activated",
+
+	base_Lego_sub									=	"Lego Mod",
+	base_Lego_sub_desc							=	"",
+	base_LegoFile									=	"Default File",
+	base_LegoDeleteKey							=	"Delete Props Key",
+	base_LegoSpawnKey								=	"Spawn Props Key",
+	base_LegoPrevKey								=	"Previous Prop Key",
+	base_LegoNextKey								=	"Next Prop Key",
+
+	base_SpoofCards_sub							=	"Loot Card Spoofer",
+	base_SpoofCards_sub_desc					=	"",
+	base_SpoofCards								=	"Enable Card Spoofer",
+	base_SpoofCards_safes						=	"Choose Safes",
+	base_SpoofCards_drills						=	"Choose Drills",
+
+	base_Debug_Sub									=	"Debug Display",
+	base_Debug_Sub_desc							=	"",
+	base_DebugDramaDraw							=	"Draw Drama",
+	base_DebugStateDraw							=	"Draw Unit Info",
+	base_DebugConsole								=	"Display Console",
+	base_DebugNavDraw								=	"Draw Navigation (Crashy)",
+	base_DebugAdditionalEsp						=	"Additional ESP",
+	base_DebugMissionElements					=	"Mission Elements",
+	base_DebugElementsAdditional				=	"Additional Elements",
+	base_EnableDebug								=	"Enable Debug (Free-Flight)",
+	base_LegacyMenu								=	"Use Config File Names In This Menu (LegacyMenu)",
+
+	base_Fixes_Tweaks_Sub						=	"Fixes and Tweaks Menu",
+	base_Fixes_Tweaks_Sub_desc					=	"Various experimental functions",
+	
+	base_Fixes_Sub									=	"Fixes",
+	base_Fixes_Sub_desc							=	"Doing Overkills Job",
+
+	base_CheckGhostBonus							=	"Check Ghost Bonus",
+	base_CheckLobbyHandler						=	"Check Lobby Handler",
+	base_CheckMeleeAttack						=	"Check Melee Attack",
+	base_CheckMissionDoorDevicePlaced		=	"Check Mission Door Device Placed",
+	base_CrashFixer								=	"Crash Fixer",
+	base_LoopFireSounds							=	"Loop Fire Sounds",
+	base_SentryIgnoresShields					=	"Sentry Ignores Shields",
+	base_custom_safehouse_Sub					=	"Custom Safehouse",
+	base_custom_safehouse_Sub_desc			=	"Customize your Safehouse",	
+	base_SafeHouseDoors							=	"Automatic Doors (V.I.P. Only)",
+	base_SafeHouseInvest							=	"Offshore Investment",
+	base_SafeHouseInvestAmt						=	"Invest Amount",
+	base_SafeHouseLego							=	"Startup Lego File",
+
+	base_Tweaks_Sub								=	"Tweaks",
+	base_Tweaks_Sub_desc							=	"For Advanced Users!\nEnable the script here edit values in the .lua files",
+
+	base_armor_tweaks_Sub						=	"Armor Tweaks Menu",
+	base_armor_tweaks_Sub_desc					=	"",
+	base_armor_tweaks								=	"Armor Tweaks",	
+
+	base_vehicle_tweaks_Sub						=	"Vehicle Tweaks Menu",
+	base_vehicle_tweaks_Sub_desc				=	"",
+	base_vehicle_tweaks							=	"Vehicle Tweaks",
+
+	base_weapon_tweaks_Sub						=	"Weapon Tweaks Menu",
+	base_weapon_tweaks_Sub_desc				=	"",
+	base_weapon_tweaks							=	"Weapon Tweaks",
+
+	base_melee_weapons_tweaks_Sub				=	"Melee Weapon Tweaks Menu",
+	base_melee_weapons_tweaks_Sub_desc		=	"",
+	base_melee_weapons_tweaks					=	"Melee Weapon Tweaks",
+	base_iceaxe_tweaks							=	"Ice Axe Tweaks",
+
+	base_primary_weapons_tweaks_Sub			=	"Primary Weapons Tweaks Menu",
+	base_primary_weapons_tweaks_Sub_desc	=	"",
+	base_primary_weapons_tweaks				=	"Primary Weapons Tweaks",
+	base_CAR4_tweaks								=	"CAR4 Tweaks",
+	base_M79_tweaks								=	"M79 Tweaks",
+
+	base_secondary_weapons_tweaks_Sub		=	"Secondary Weapons Tweaks Menu",
+	base_secondary_weapons_tweaks_Sub_desc	=	"",
+	base_secondary_weapons_tweaks				=	"Secondary Weapons Tweaks",
+	base_Bernetti9mm_tweaks						=	"Bernetti 9mm Tweaks",
+	base_ChinaPuff_tweaks						=	"China Puff Tweaks",
+	base_Glock18c_tweaks							=	"Glock 18c Tweaks",
+
+	base_throwable_weapons_tweaks_Sub		=	"Throwable Weapons Tweaks Menu",
+	base_throwable_weapons_tweaks_Sub_desc	=	"",
+	base_throwable_weapons_tweaks				=	"Throwable Weapons Tweaks",
+	base_Ace_tweaks								=	"Ace Tweaks",
+	base_Frag_Grenade_tweaks					=	"Frag Grenade Tweaks",
+
+	base_general_weapons_tweaks_Sub			=	"General Weapons Tweaks Menu",
+	base_general_weapons_tweaks_Sub_desc	=	"",
+	base_general_weapons_tweaks				=	"General Weapons Tweaks",
+	base_Bipod_Freelook							=	"Bipod Freelook",
+	base_Bipod_Standing							=	"Bipod Standing",
+	base_Bullet_Penetration						=	"Bullet Penetration",
+	base_Drum_Magazine_Mod						=	"Drum Magazines",
+	base_Gadget_Always_On						=	"Gadget Always On",
+	base_Improved_Tripmine						=	"Improved Tripmines",
+	base_Increased_Pickup_Ammo					=	"Increased Ammo Pickup rate",
+	base_LMG_Scopes								=	"Scopes for LMG's",
+	base_projectiles_Tweaks						=	"Projectiles Tweaks",
+	base_Rocket_Jump								=	"Rocket Jump",
+	base_Sentry_Gun_Tweaks						=	"Sentry Gun Tweaks",
+	base_Shotgun_Physics							=	"Shotgun Physics",
+	base_Weapon_Parts_Tweaks					=	"Weapon Parts Stats Tweaks",
+	base_Weapon_Tweaks							=	"Weapon Stats Tweaks",
+	
+-- Main pre-game menu
+	main_menu_title								=	"Main pre-game Menu",
+	main_menu_desc									=	"",
+
+	safehouse_title								=	"Safehouse Menu",
+	safehouse_desc									=	"",
+	unlock_achievements							=	"Unlock all Achievements",
+	lock_achievements								=	"Lock all achievements",
+	Auto_Complete_All_Challenges				=	"Auto. Complete All Side Jobs",
+	Auto_Complete_Safehouse_Challenge		=	"Auto. Complete the Safe House Daily Challenge",
+	unlock_safehouse_trophies					=	"Unlock all Safehouse Trophies",
+	unlock_tier_3_rooms							=	"Upgrade All Rooms",
+	set_continental_coins						=	"Set Continental Coins",
+	
+	crimespree_title								=	"Crime Spree Menu",
+	crimespree_desc								=	"",
+	set_crimespree_spree_level					=	"Set Crimespree Spree Level",
+	set_crimespree_reward_level				=	"Set Crimespree Reward Level",
+	set_crimespree_catchup_bonus				=	"Set Crimespree Catchup Bonus",
+	set_crimespree_winning_streak_bonus		=	"Set Crimespree Winning Streak Bonus",
+
+	money_title										=	"Money Menu",
+	money_desc										=	"",
+	add_money_1										=	"Add 1 mill cash + 4 mill offshore",
+	add_money_2										=	"Add 10 mill cash + 40 mill offshore",
+	add_money_3										=	"Add 100 mill cash + 400 mill offshore",
+	add_money_4										=	"Add 1 billion cash + 4 billion offshore",
+	add_money_5										=	"Add 10 billion cash + 40 billion offshore",
+	add_money_6										=	"Add 100 billion cash + 400 billion offshore",
+	add_money_7										=	"Add 2 trillion cash + 8 trillion offshore",
+	add_money										=	"Add Money",
+	reset_money										=	"Reset money",
+
+	level_title										=	"Level Menu",
+	level_desc										=	"",
+	level_revolver									=	"Level revolver",
+	set_level										=	"Set level to",
+	add_exp											=	"Add exp",
+
+	skill_title										=	"Skill Menu",
+	skill_desc										=	"",
+	unlock_all_skills								=	"Unlock all skills (Breaks Skill Tree)",
+	unlock_tiers									=	"Unlock all skill tiers",
+	set_points										=	"Set skill points to",
+	reset_points									=	"Reset skill points",
+	unlock_perks									=	"Unlock all perks",
+	lock_perks										=	"Lock all perks",
+	set_perks										=	"Set perk points",
+	reset_perk_points								=	"Reset perk points to 0",
+
+	secret_skills_title							=	"Secret Skills Menu",
+	secret_skills_desc							=	"IMPORTANT: You must click SAVE and RESTART THE GAME for you changes to have an effect!",
+	aced												=	"Aced",
+
+	inf_title										=	"Infamy Menu",
+	inf_desc											=	"",
+	set_inf											=	"Set Infamy level to",
+	set_inf_points									=	"Set Infamy points to",
+	reset_inf										=	"Reset Infamy level",
+
+	inv_title										=	"Inventory Menu",
+	inv_desc											=	"",
+	safe_sim											=	"Safe Simulator",
+	safe_sim_desc									=	'Choose a Safe to "open"',
+	safe_sim_add_skin								=	"Add skins to inventory?",
+	safe_sim_chances								=	"Simulation Chances",
+	safe_sim_chances_desc						=	"Change the chances of each entry for each category",
+	safe_sim_rarity								=	"Rarity (%): ",
+	safe_sim_quality								=	"Quality (%): ",
+	safe_sim_stat									=	"Stat Boost",
+	remove_exclamation							=	"Remove exclamation mark",
+	no_weap_mod_limit								=	"Remove limit of installed modifications",
+	unlock_all										=	"Unlock all items",
+	unlock_slots									=	"Unlock all slots",
+	unlock_all_armor_skins						=	"Unlock all armor skins",
+	unlock_all_weapon_skins						=	"Unlock all weapon skins",
+	unlock_weapons									=	"Unlock weapons",
+	unlock_weap_mods								=	"Unlock weapon mods",
+	unlock_masks									=	"Unlock masks",
+	unlock_materials								=	"Unlock materials",
+	unlock_textures								=	"Unlock textures",
+	unlock_colors									=	"Unlock colors",
+	clear_inventory_menu							=	"Remove items from inventory",
+	clear_inventory_desc							=	"",
+	lock_all_items									=	"Lock all items",
+	clear_primaries_slots						=	"Delete all primary weapons",
+	clear_secondaries_slots						=	"Delete all secondary weapons",
+	clear_masks_slots								=	"Delete all masks",
+	clear_all_slots								=	"Clear inventory",
+
+	inv_spec_menu									=	"Specific inventory Menu",
+	inv_spec_menu_desc							=	"Choose what type of item to add",
+	inv_spec_masks									=	"Masks",
+	inv_spec_masks_title							=	"All masks",
+	inv_spec_colors								=	"Colors",
+	inv_spec_colors_title						=	"All colors",
+	inv_spec_materials							=	"Materials",
+	inv_spec_materials_title					=	"All materials",
+	inv_spec_textures								=	"Patterns",
+	inv_spec_textures_title						=	"All patterns",
+	inv_spec_weapon_mods							=	"Weapon mods",
+	inv_spec_weapon_mods_title					=	"All weapon mods",
+	inv_spec_weapon_search						=	"Weapon Search",
+
+-- Character menu
+	char_menu										=	"Character Menu",
+	togg_godmode									=	"Godmode",
+	togg_no_hit										=	"No hit distraction",
+	togg_jumping									=	"High jump on sprint",
+	togg_speed										=	"Increase run speed",
+	togg_ammo										=	"Infinite ammo (no reload)",
+	togg_bullets									=	"Explosive bullets",
+	togg_shoot_through_walls					=	"Toggle shoot through walls",
+	togg_crazyness									=	"Crazy firerate",
+	togg_accurate									=	"No weapon spread",
+	togg_recoil										=	"No recoil",
+	togg_melee_range								=	"Long melee range",
+	togg_melee_charge								=	"Very fast melee charge time",
+	togg_melee_no_delay							=	"Very fast meleeing",
+	secure_carry									=	"Secure carried carry",
+	going_to_jail									=	"Giveup to police",
+	outta_jail										=	"Escape from jail",
+	additional_option								=	"Additional options",
+	no_headbob										=	"No headbob",
+	increase_standard_speed						=	"Increase standard speed",
+	inf_ammo_reload								=	"Infinite ammo with reload",
+	togg_kill_in_one_hit							=	"Toggle increase weapon damage",
+	hacked_maskoff									=	"Hack mask off mode",
+	togg_infinite_stamina						=	"Infinite stamina",
+	togg_no_bag_cooldown							=	"No bag cooldown",
+	togg_increase_melee_dmg						=	"Increase melee damage",
+	togg_no_flash_bangs							=	"No flash bangs",
+	togg_no_fall_damage							=	"No fall damage",
+	annoyer_mode									=	"Annoyer mode (speak without delays)",
+	grenade_bullets								=	"Weapon fires grenades",
+	less_damage										=	"Receive 50% less damage",
+	buddha_mode										=	"Buddha mode",
+
+-- Tools
+	unlock_all_preplaning						=	"Unlock all pre planning elements",
+	unlock_all_assets								=	"Unlock all assets",
+	tools_menu										=	"Tools Menu",
+	force_game_start								=	"Force game start",
+	spoof_detection_lvl							=	"Spoof Detection Level",
+	sequencer_menu									=	"Sequencer Menu",
+	force_ready										=	"Force Ready",
+	force_unready									=	"Force Unready",
+
+-- The "I Want That" Menu
+	want_that_title								=	'The "I Want That" Menu',
+	want_that_desc									=	"Pick a player you wish to steal from.",
+	want_that_alone								=	"No Other Players",
+	want_that_you									=	"You", -- Used when referring to your own inventory
+	want_that_offline								=	"Not In Crime.Net Lobby",
+	want_that_inventory							=	"Inventory",
+	want_that_mask									=	"Mask",
+	want_that_primary								=	"Primary",
+	want_that_secondary							=	"Secondary",
+	want_that_item_desc							=	"Add all components automatically, craft the entire item to the first open slot, or add individual components.",
+	want_that_item_desc_wep						=	"You cannot add the weapon itself.",
+	want_that_add_all								=	"Add All Components",
+	want_that_view_stats							=	"View Stats",
+	want_that_weapon								=	"Weapon",
+	want_that_craft_wep							=	"Craft Weapon",
+	want_that_stock_weapon						=	"Entire Weapon Is Stock",
+	want_that_add_mod								=	"Add Mod",
+	want_that_add_skin							=	"Add Skin",
+	want_that_have_skin							=	"Have Skin",
+	want_that_stats_desc							=	"Does not include Skill bonuses!",
+	want_that_silenced							=	"Silenced",								--	\/	Weapon features	\/
+	want_that_scope								=	"Scope",
+	want_that_gadget								=	"Gadget",
+	want_that_bipod								=	"Bipod",
+	want_that_auto_hi								=	"Auto-Highlight",
+	want_that_lock_single						=	"Locked Single Fire",
+	want_that_lock_auto							=	"Locked Auto Fire",
+	want_that_bullet_pen							=	"Bullet Penetration",
+	want_that_armor_pierce						=	"Added Armor Piercing",
+	want_that_move_speed							=	"Increased Movement Speed",
+	want_that_skin_bonus							=	"Skin Bonus",							--	/\	Weapon features	/\
+	want_that_stock_mask							=	"Entire Mask Is Stock",
+	want_that_add_mask							=	"Add Mask",
+	want_that_add_mat								=	"Add Material",
+	want_that_add_pat								=	"Add Pattern",
+	want_that_add_color							=	"Add Color",
+	want_that_craft_mask							=	"Craft Mask",
+	want_that_craft_lock							=	"Craft Locked",						--	\/	Craft Check System	\/
+	want_that_in_game								=	"In-Game",
+	want_that_rsn_play							=	"Cannot Craft While Playing",
+	want_that_rsn_already						=	"Item Already Crafted",
+	want_that_slots								=	"Slots",
+	want_that_rsn_space							=	"No Space Available",
+	want_that_rsn_level							=	"Level Locked",
+	want_that_rsn_clan							=	"PD2 Group Item",
+	want_that_rsn_unknown						=	"UNKNOWN REASON, REPORT THIS!",
+	want_that_rsn_achieve						=	"Achievement Locked",				--	/\	Craft Check System	/\
+
+-- Interaction menu
+	intm_title										=	"Interaction Menu",
+	speedy_the_robber								=	"Quickly rob stuff",
+	ecm_kiddie										=	"Crack all atms",
+	opn_all_vaults									=	"Open all vaults and deposits",
+	c4_doors											=	"Explode all doors",
+	remove_bags										=	"Remove all carry_drop from map",
+	restore_drills									=	"Place/Upgrade/Restore all drills",
+	no_rats_for_you								=	"Clear Chemicals",
+	grab_everything								=	"Grab Everything",
+	grab_small_loot								=	"Grab all small loot",
+	grab_bags										=	"Grab all bags(Enables Carry stacker)",
+	grab_packages									=	"Pickup all gage packages",
+	hack_machines									=	"Quick Election Day, Day 2",
+	hack_computers									=	"Hack all computers",
+	bag_people										=	"Bag all corpses",
+	barricade_windows								=	"Barricade all windows",
+	answer_phones									=	"Answer all phones",
+	revive											=	"Revive all players",
+	pickup_files									=	"Pickup correct files",
+	open_doors										=	"Open all doors",
+
+-- Interaction menu, patches
+	intm_patches									=	"Interaction modifications",
+	patch_int_all									=	"Toggle interact with everything",
+	patch_int_speed								=	"Toggle interaction Speed",
+	patch_int_speed1								=	"Toggle instant interaction",
+	patch_int_speed2								=	"Toggle fast interaction",
+	patch_int_normal								=	"Reset interaction speed",
+	patch_int_distance							=	"Toggle infinite interaction distance",
+	patch_int_nowalls 							=	"Toggle interact through walls",
+	patch_instant_intimidation					=	"Toggle instant intimidation",
+	patch_instant_lootpile						=	"Toggle Instant Lootpile Activate",
+	patch_int_reboard								=	"Toggle reboarding (V.I.P. Only)",
+	patch_int_team									=	"Instant Interaction for Team (V.I.P. Only)",
+	patch_interact_and_look						=	"Toggle interact and look around",
+	patch_noone_downs								=	"Noone shall down",
+	open_gift_boxes								=	"Open gifts",
+	rewire_circuit									=	"Rewire circuit boxes",
+	cut_wires										=	"Cut the right wires",
+	start_hack										=	"Search for Clues",
+	state_interaction_enabled_usb				=	"Quick Find USB",
+	tumble_books									=	"Tumble all books",
+	cut_glasses										=	"Cut glasses",
+	place_explosives								=	"Place all explosives",
+
+-- Stealth menu
+	stealth_menu									=	"Stealth Menu",
+	stealth_inf_menu								=	"Infinite options for stealth",
+	inf_cable										=	"Toggle infinite cable-ties",
+	inf_ecm_battery								=	"Toggle infinite ecm battery",
+	inf_converts									=	"Toggle infinite converts",
+	dis_cams											=	"Toggle disable cameras",
+	inf_pager_answ									=	"Toggle infinite pager answers",
+	inf_body_bags									=	"Toggle infinite body bags",
+	steal_pagers									=	"Toggle steal pagers on melee kill",
+	add_ecm											=	"Add ecm jammer",
+	inf_follow_hostages							=	"Toggle no limit how many civs can follow you",
+	kill_all_npc									=	"Kill all npc on map",
+	npc_menu											=	"NPC options",
+	remote_camera_access							=	"Remote access to the cameras",
+	cops_dont_shoot								=	"Toggle cops don't shoot at you",
+	people_dont_call_police						=	"Toggle people stop calling the cops",
+	prevent_panic_buttons						=	"Prevents panic buttons",
+	dis_pagers										=	"Prevents Cops from using Pagers",
+	lobotomize_ai									=	"Lobotomize all npc on map",
+	dont_shout_at_tied							=	"Guards doesn't see tied civilians",
+	invisible_player								=	"Make you invisible for AI",
+	change_fov										=	"Change FOV",
+
+-- Job menu
+	job_menu_title									=	"Job Menu",
+	job_menu_description							=	"All possible to play levels here",
+	tpro												=	" Pro job",
+	job_menu_single								=	"Toggle singleplayer hosting",
+	job_menu_diff									=	"Change difficulty",
+	job_menu_diff_c								=	" (Current: %s)",
+	job_menu_diff_t								=	"Choose new difficulty",
+	job_menu_escapes								=	"Escapes",
+	job_menu_permission							=	"Permission",
+	job_menu_kick_opt								=	"Kick type",
+	job_menu_no_kick								=	"Kick disabled",
+	job_menu_kick									=	"Kick enabled",
+	job_menu_vote_kick							=	"Vote to kick",
+	job_menu_safehouse_raid						=	"Activate Safe House Raid",
+	job_menu_crew_finder							=	"Crew Finder",
+	job_menu_crew_desc							=	"Make sure to set your lobby to PUBLIC!",
+	job_menu_crew_pass							=	"Password:  ",
+	job_menu_crew_confirm						=	"Confirm Password",
+	job_menu_contacts								=	"Contacts",
+
+-- Inventory menu
+	inventory_menu									=	"Inventory Menu",
+	inventory_menu_desc							=	"Choose bag that you want to spawn",
+	add_items_menu									=	"Add items to inventory",
+	togg_rain_bags									=	"Toggle bag raining",
+	inventory_give_cash							=	"Give some instant cash",
+	inventory_money_title						=	"Money Menu",
+	secure_turrets_lg								=	"Secure bags",
+	modifiers										=	"Modifier Menu",
+	bag_throw_force								=	"Increase bag throw force",
+	sync_bag_throw_force							=	"Sync bag throw force",
+	bag_no_speed_penalty							=	"No penalty movement with bag",
+	explosive_bags									=	"Make all bags explosive",
+	spawn_bag_menu									=	"Spawn bag Menu",
+	equipment_changer								=	"Change equipment",
+	change_equipment								=	"Change equipment to ",
+	spawn												=	"Spawn",
+
+-- Spawn menu
+	spawn_menu										=	"Spawn Menu",
+	spawn_cops_menu								=	"Spawn cop units",
+	spawn_fbi_menu									=	"Spawn fbi units",
+	spawn_swats_menu								=	"Spawn swat units",
+	spawn_gangs_menu								=	"Spawn gang units",
+	spawn_bg_cops_menu							=	"Spawn bodyguard cop units",
+	spawn_bg_fbi_menu								=	"Spawn bodyguard fbi units",
+	spawn_bg_swats_menu							=	"Spawn bodyguard swat units",
+	spawn_bg_gangs_menu							=	"Spawn bodyguard gang units",
+	spawn_civs_menu								=	"Spawn civilian units",
+	spawn_settings									=	"Spawn settings",
+	spawn_load_packages							=	"Load packages",
+	spawn_position_menu							=	"Spawn position settings",
+	spawn_on_spawn_point							=	"Set spawn on spawn point",
+	spawn_on_ray									=	"Set spawn on crosshair position",
+	spawn_amount_menu								=	"Units spawn amount",
+	spawn_set_to									=	"Set to",
+	no_units_on_map								=	"You can't spawn these units on current map",
+	spawn_civ_anim_menu							=	"Civilians spawn animation",
+	spawn_ene_anim_menu							=	"Enemy spawn animation",
+	spawn_other_anim_menu						=	"Other spawn animation",
+	spawn_props_menu								=	"Spawn props",
+	spawn_gage_package							=	"Spawn gage packages",
+	spawn_on_random_point						=	"Set spawn on random point",
+	spawn_special_menu							=	"Spawn special items",
+	spawn_vehicle_turret_fr						=	"Spawn friendly vehicle turret",
+	spawn_vehicle_turret_en						=	"Spawn enemy vehicle turret",
+
+-- Equipment menu
+	equip_menu_title								=	"Equipment Menu",
+	equip_sentry_infammo							=	"Toggle infinite sentry ammo",
+	equip_sentry_inv								=	"Toggle sentry invulnerabillity",
+	equip_sentry_ammo								=	"Choose sentry ammo type",
+	equip_sentry_ammo_toggle					=	"Toggle sentry custom ammo",
+	equip_sentry_grenade							=	"Choose grenade",
+	equip_sentry_molotov							=	"Choose molotov",
+	equip_sentry_rocket							=	"Choose rocket",
+	equip_infinite_bags							=	"Toggle non consumable equipments",
+	equip_drill_service							=	"Toggle drill auto restoring",
+	equip_drill_instant							=	"Toggle instant drills",
+	equip_inf_equipments							=	"Infinite equipments",
+	equip_instant_deployments					=	"Instant deployments",
+	equip_warning									=	"(Far placements are activated in order to function properly)",
+	equip_desc										=	"Right click to bind an option to a button",
+
+-- Lego menu
+	lego_choose_file								=	"Choose file",
+	lego_load_file									=	"Load file",
+	lego_clear_file								=	"Clean file",
+	lego_create										=	"Create new file",
+	lego_menu										=	"Lego Menu",
+	favorite_menu									=	"Favorite Menu",
+
+-- Exception messages
+	except_ok										=	"OK",
+	except_cancel									=	"CANCEL",
+	except_ignore_futher							=	" (and no longer show me this kind of warnings)",
+	except_title_warn								=	"WARNING!!!",
+	except_equipment_warn						=	[[You're trying to spawn more equipments than game limited or place different type of equipment than was placed before!
+This attempt was blocked, but if you'll press ok,
+no more warnings will stop you and futher actions may mark you as cheater and if you're playing on someone's server,
+action maybe rejected by server and mark you as cheater aswell!
+]],
+	except_grenades_warn							=	[[You're trying to throw more than 3 grenades!
+This action was blocked for now, press ok to ignore this warning and stop limiting grenades.
+Futher throws may be rejected by server and/or mark you as cheater!
+]],
+	except_crash_title							=	"Crash detected",
+	except_crash_warn								=	"It seems game was shut down in an unexpected way, do you want to see crash log ?",
+	except_yes										=	"Yes",
+	except_no										=	"No",
+
+-- Troll menu
+	troll_menu										=	"Troll Menu",
+	troll_cops_to_bulld							=	"Dead cops turn to bulldozers",
+	troll_take_mask								=	"Take mask off",
+	troll_interaction_with_other				=	"Interaction with other players",
+	troll_interact_with							=	"Interact with %s (id - %s)",
+	troll_no_players								=	"No other players on the map",
+	troll_teleport_to								=	"Teleport to player",
+	troll_change_spawn_pos						=	"Change spawn position for new players",
+	troll_send_peer_in_custody					=	"Send player to custody",
+	troll_release_player							=	"Release player from custody",
+	troll_tase_player								=	"Tase player",
+	troll_arrest_player							=	"Arrest player",
+	troll_kill_player								=	"Kill player",
+	troll_standart_player						=	"Change player state to standard",
+	troll_teleport_player						=	"Teleport player to your position",
+	troll_teleport_team							=	"Teleport team to your position",
+	troll_set_killzone							=	"Slap player",
+	troll_send_tm_in_custody					=	"Send team in custody",
+	troll_release_tm_from_jail					=	"Release team from custody",
+	troll_tase_tm									=	"Tase team",
+	troll_arrest_tm								=	"Arrest team",
+	troll_kill_tm									=	"Kill team",
+	troll_standard_tm								=	"Change team state to standard",
+	troll_increase_ladder						=	"Increase ladder height and width",
+	troll_del_units								=	"Delete all synchronized units from map",
+	troll_change_own_state						=	"Interact with self",
+	troll_activate_elements						=	"Activate elements",
+	troll_activate_triggers						=	"Activate triggers",
+	troll_open_doors								=	"Open all doors",
+	troll_close_doors								=	"Close all doors",
+	troll_open_vault								=	"Open vault",
+	troll_close_vault								=	"Close vault",
+	troll_remove_head								=	"Remove Heads of Enemies",
+	troll_Remove_body								=	"Remove Bodys of Enemies",
+	troll_Remove_legs								=	"Remove Legs of Enemies",
+	troll_fill_deposits_money					=	"Fill deposit boxes with money",
+	troll_replace_cops							=	"Replace cops with bulldozers",
+	troll_change_statistic						=	"Change your statistic",
+	chance											=	"Chance",
+	troll_team_god_mode							=	"Enable god mode for your team",
+	troll_interact_team							=	"Interact with team",
+	troll_give_equipments						=	"Give equipments",
+	troll_give										=	"Give",
+	troll_give_bags								=	"Give bags",
+	troll_give_items								=	"Give items",
+	troll_kick_player								=	"Kick player",
+	troll_kick_all_players						=	"Kick all players",
+	troll_exploding_enemies						=	"Exploding enemies",
+	troll_set_cops_on_fire						=	"Set cops on fire",
+	troll_invisible_spooks						=	"Make spooks invisible",
+	troll_launch_cars								=	"Launch players' cars to air",
+	troll_open_van_doors							=	"Open van doors",
+	troll_close_van_doors						=	"Close van doors",
+	troll_Freeze_ragdoll							=	"Freeze Ragdoll",
+	troll_Upgrade_cameras						=	"Upgrade Cameras",
+	troll_Hide_doors								=	"Hide Doors",
+	troll_Show_doors								=	"Show Doors",
+	troll_Enable_units							=	"Enable Units",
+	troll_Disable_units							=	"Disable Units",
+	troll_End_mission								=	"End Mission",
+	troll_spawn_spook								=	"Spawn spook near him",
+	troll_drill										=	"Troll drill",
+	troll_reduce_damage							=	"Reduce damage",
+	troll_rider										=	"Piggyback",
+	troll_rider_start								=	"Ride Player",
+	troll_rider_stop								=	"Stop Riding",
+	troll_rider_peasant							=	", peasant",
+	troll_time_control							=	"Time Control",
+	troll_time_mess_block						=	" tried to slow you...",
+	troll_time_mess_reverse						=	" they'll see how it feels...",
+	troll_time_time_desc							=	"Time speed to set player at, numbers greater than 0 only affect sound for the giggles",
+	troll_time_dur_desc							=	"Seconds to keep player time speed",
+	troll_alarm										=	"Police Hotline",
+	troll_alarm_crim								=	"Report a Criminal",
+	troll_alarm_gun								=	"Report Shots Fired",
+	troll_alarm_exp								=	"Report Explosion",
+	troll_alarm_mon								=	"Report a MONSTER!",
+	troll_sentries_team							=	"Evil sentry guns",
+	troll_evil_criminals							=	"Evil AI criminals",
+	Launch_cops_to_air							=	"Launch Cops to Air",
+
+-- Weapon menu
+	weapon_menu_title								=	"Weapons Menu",
+	weapons_from_inventory						=	"Choose weapon from inventory",
+	weapon_primaries								=	"Primary weapons",
+	weapon_secondaries							=	"Secondary weapons",
+	melee_weapons									=	"Melee weapons",
+	armors											=	"Armors",
+	always_dismember								=	"Always dismember",
+	reload_speed_multiplier						=	"Toggle Reload Speed",
+
+-- Mod menu
+	mod_menu											=	"Mod Menu",
+	mod_noclip										=	"NoClip mod",
+	mod_TerminatorHUD								=	"Terminator HUD mod",
+	mod_driver										=	"Driver mod",
+	mod_lego											=	"Lego mod",
+	mod_aimbot										=	"AimBot mod",
+	mod_wavehouse									=	"Wavehouse mod",
+	mod_pvp											=	"PVP mod",
+	mod_helicopter									=	"Helicopter mod",
+
+-- Mission menu
+	mission_menu_title							=	"Mission Menu",
+	mission_menu_desc								=	"Scripts for specific heists",
+	auto_cooker										=	"Toggle meth auto-cooking",
+	way_pointing									=	"Toggle objects waypointing",
+	debug_hud										=	"Toggle debug HUD",
+	trigger_recorder								=	"Toggle Trigger Recorder",
+	mission_events									=	"Mission events",
+	assault											=	"Call assault",
+	heli												=	"Call helicopter",
+	open_vault										=	"Open vault door",
+	call_car											=	"Call cop car",
+	convert_all										=	"Convert all alive enemies",
+	intimidator										=	"Toggle intimidator",
+	tie_civs											=	"Tie all civilians",
+	shutdown_dialogs								=	"Shutdown dialogs",
+	spawn_plan										=	"Spawn blueprints",
+	reduce_ai_health								=	"Reduce AI health",
+	increase_ai_amount							=	"Enemy density x2",
+	pointless_medics								=	"Pointless Medics",
+	Auto_counter_Cloakers						=	"Auto. Counter Cloaker Attacks",
+	overdrill										=	"Activate Overdrill",
+	overdrillwaypoints							=	"Toggle Overdrill Waypoints",
+	Overlever										=	"Activate Overlever",
+	Overlevergate									=	"Open the Riddle Gate",
+
+-- Correct engine menu
+	cengine_menu_title							=	"Correct engine Menu",
+	cengine_menu_desc								=	"Choose what you want to do",
+	cengine_menu_pickup							=	"Pickup correct engine",
+	cengine_menu_spawn							=	"Spawn correct engine",
+	cengine_menu_hud								=	"Reveal correct engine",
+	cengine_menu_print							=	"Print correct engine into console",
+
+-- Update dialog
+	update_title									=	"New update available!",
+	update_desc										=	"New version (v. %s) avaiable, do you want to visit forum\'s download section ?",
+	update_goto										=	"Visit download section",
+
+-- Normalizer
+	Normalizer										=	"Normalizer Menu",
+	Normalizer_desc								=	[["Normalize Game": Will unload enabled cheats.
+It doesn't fully recover game from modifications!
+
+"Reboot Trainer": Will normalize game first, then load cheats back again.
+Usefull when you want to reload some modified plugin on fly or turn on cheats again after normalization.]],
+	normalizer_warn								=	"Warning!!!",
+	Areyousure										=	"This is experimental feature, your game may crash.",
+	normalizer_restore							=	"Normalize Game",
+	normalizer_reboot								=	"Reboot Trainer",
+
+-- Configuration menu
+	config_menu										=	"Configuration Menu",
+	config_create									=	"Create new configuration file",
+	config_load										=	"Load configuration file",
+	config_rename									=	"Rename configuration file",
+	config_delete									=	"Delete configuration file",
+	config_empty									=	"No configs found",
+	config_type										=	"Type name",
+	config_save_all								=	"Save all current settings",
+	config_save_into_new							=	"Save changes into new config",
+	config_save_default							=	"Set active config as default",
+	config_are_you_sure							=	"Config with that name already exists. Are you sure you want to overwrite it ?",
+	config_current									=	"Your current config",
+
+-- WayPoints menu
+	wp_title											=	"WayPoints menu (only in-game)",
+	wp_show_all										=	"Show all waypoints",
+
+-- Localization menu
+	loc_menu											=	"Localization Menu",
+	loc_menu_choose_local						=	"Change language",
+	loc_menu_choose_remote						=	"Download new languages",
+	loc_menu_update_locals						=	"Update",
+	menu_wait										=	"Wait",
+	loc_menu_wait_desc							=	"Downloading available languages list ...",
+	loc_menu_title									=	"Available languages",
+	loc_menu_desc									=	"Choose which language you want to download/update.\nYour current language: '%s'\nLanguage version: '%s'",
+	loc_menu_success								=	"Successfully updated",
+	loc_menu_succ_desc							=	"Do you want to change your language now ?\n(Changes will fully apply only on next game restart/heist start)",
+	loc_menu_fail									=	"Error!!!",
+	loc_menu_fail_desc							=	"Something went wrong when we tried to download translations, please check debug console (errlog.txt) for more details.",
+
+-- Music menu
+	music_menu_title								=	"Music Menu",
+	music_menu_stop								=	"Stop music",
+
+-- Parallel tasks messages
+	prl_too_long									=	"Too long",
+	prl_too_long_desc								=	"Some tasks still aren't finished their work, do you want to end them and force game to proceed ?",
+	prl_proceed										=	"Force to continue",
+
+-- Safe House Customization
+	safehouse_invest_title						=	"Offshore Investment",
+	safehouse_invest_lucky						=	"The Continental Acknowledges your Dankness: +10 COINS",
+	safehouse_invest_coin						=	"The Continental Appreciates your Generosity: +1 COIN",
+	cash												=	"Cash",
+	offshore											=	"Offshore",
+	safehouse_invest_min							=	"The Offshore account balance is under chosen Investment",
+	safehouse_invest_empty						=	"The Offshore account balance is Empty",
+	safehouse_invest_max							=	"The Offshore account balance Has Reached max invest Limit",
+
+-- Other
+	dropin_join_progress							=	" join progress is ",
+	dropin_joined									=	" successfully joined game.",
+	loot_spoof_name								=	"Spoof Cards",
+	loot_spoof_actual								=	"Actual Loot: ",
+
+-- Spoof name menu
+	spoof_menu										=	"Spoof Name Menu",
+	change_name										=	"Change your Name",
+	spoof_standard_names							=	"Standard Names",
+	spoof_pirates_names							=	"Pirate Names",
+	spoof_donors_names							=	"Donor Names",
+	spoof_patrons_names							=	"Patron Names",
+	spoof_developer_names						=	"Developer Names",
+}

@@ -1,0 +1,96 @@
+{
+	"blt_options_menu_blt_mods" : "Mods BLT",
+	"blt_options_menu_blt_mods_desc" : "Actualizar y administrar tus Mods BLT instalados",
+	"blt_options_menu_lua_mod_options" : "Opciones de Mod",
+	"blt_options_menu_lua_mod_options_desc" : "Configura y Personaliza tus Mods BLT instalados",
+	"blt_options_menu_keybinds" : "Vinculaciones de Teclas",
+	"blt_options_menu_keybinds_desc" : "Establece las vinculaciones de teclas para tus mods BLT",
+
+	"blt_mod_outdated" : "Este mod es para una version antigua de BLT que ya no es compatiblle,  el desarrollador debe actualizar este mod a la ultima version de BLT. Dejar este mod activado generara errores y crashes.",
+	"blt_mod_missing_dependencies" : "Este mod requiere otros mods para funcionar los cuales no estan instalados, por lo tanto ha sido desactivado.",
+	"blt_mod_missing_dependency" : "    Ausente: $dependency",
+	"blt_mod_missing_dependency_download" : "    Ausente: $dependency, añadido al Gestor de Descargas",
+	"blt_mod_dependency_disabled" : "Este mod requiere de otros mods que no estan activados, por lo que ha sido desactivado.",
+	"blt_mod_disabled_dependency" : "    Desactivado: $dependency",
+
+	"blt_mod_info_author" : "Autor",
+	"blt_mod_info_contact" : "Contacto",
+
+	"blt_mod_state_enabled" : "Activado",
+	"blt_mod_state_enabled_desc" : "Este mod sera cargado cuando el juego se inicie.",
+	"blt_mod_state_disabled" : "Desactivado",
+	"blt_mod_state_disabled_desc" : "Este mod no sera cargado por el juego.",
+	"blt_mod_state_forced_disabled" : "Bloqueado",
+	"blt_mod_state_forced_disabled_desc" : "Este mod esta desactualizado y no puede ser cargado por el juego.",
+
+	"blt_mod_state_enabled_on_restart" : "Activar al Reiniciar",
+	"blt_mod_state_enabled_on_restart_desc" : "Este mod sera cargado la proxima vez que inicies el juego.",
+	"blt_mod_state_disabled_on_restart" : "Desactivar al Reiniciar",
+	"blt_mod_state_disabled_on_restart_desc" : "Este mod no sera cargado la proxima vez que inicies el juego.",
+
+	"blt_mod_safemode_enabled" : "Modo Seguro:\nActivado",
+	"blt_mod_safemode_enabled_help" : "Desactivar este mod despues de una actualizacion, para evitar crashes.",
+	"blt_mod_safemode_disabled" : "Modo Seguro:\nDesactivado",
+	"blt_mod_safemode_disabled_help" : "Este mod no sera desactivado automaticamente despues de una actualizacion.",
+
+	"blt_mod_updates_enabled" : "Actualizaciones Automaticas:\nActivado",
+	"blt_mod_updates_enabled_help" : "Automaticamente revisar en el servidor de PaydayMods por nuevas versiones de este mod.",
+	"blt_mod_updates_disabled" : "Actualizaciones Automaticas:\nDesactivado",
+	"blt_mod_updates_disabled_help" : "Este mod no buscara actualizaciones en el servidor de PaydayMods",
+
+	"blt_mod_check_for_updates" : "Verificar Actualizaciones",
+	"blt_mod_check_for_updates_desc" : "Verificar si existen actualizaciones en el servidor de PaydayMods.",
+
+	"blt_mod_toggle_dev" : "Informacion de Desarrollador",
+	"blt_mod_toggle_dev_desc" : "Mostrar/Ocultar la Informacion del desarrollador de este mod.",
+
+	"blt_update_mod_title" : "Actualizar $name",
+	"blt_update_mod_up_to_date" : "$name esta actualizado.",
+	"blt_update_mod_error" : "No se pudo verificar si esta actualizado.\n$reason",
+	"blt_update_mod_available" : "¡Una actualizacion para $name esta disponible! ¡Añadido al Gestor de Descargas!",
+	"blt_update_mod_goto_manager" : "Ir al Gestor de Descargas",
+
+	"blt_update_dll_title" : "Actualizacion Critica",
+	"blt_update_dll_text" : "Una actualizacion esta disponible para la DLL de BLT, necesitas actualizarlo manualmente descargandolo e instalandolo nuevamente desde el sitio web.\n\nPor favor actualiza cuanto antes ya que es una actualizacion critica y puede resolver crashes en el juego.",
+	"blt_update_dll_goto_website" : "Ir al sitio de descarga en PaydayMods",
+	"blt_update_later" : "Actualizar Luego",
+	
+	"blt_download_manager" : "Gestor de Descargas",
+	"blt_download_manager_help" : "Actualiza tus Mods BLT.\nPor el amor a Sydney actualiza tus mods.",
+	"blt_download_ready" : "Listo para Descargar",
+	"blt_download_waiting" : "Esperando...",
+	"blt_download_downloading" : "Descargando... $bytes;b/$total_bytes;b",
+	"blt_download_saving" : "Guardando...",
+	"blt_download_extracting" : "Extrayendo...",
+	"blt_download_verifying" : "Verficando...",
+	"blt_download_failed" : "¡Error! ¿Intentar Nuevamente?",
+	"blt_download_done" : "Listo!",
+	"blt_download_dependency" : "$dependency es requerido por $mod",
+	"blt_download_all" : "Actualizar Todo",
+
+	"blt_checking_updates" : "Revisar actualizaciones",
+	"blt_checking_updates_help" : "Revisando actualizaciones en el servidor de PaydayMods, por favor espera...",
+	"blt_checking_updates_required" : "Actualizaciones requeridas",
+	"blt_checking_updates_required_help" : "Hay actualizaciones disponibles para tus mods, visita el Gestor de Descargas para obtenerlas!",
+	"blt_view_patch_notes" : "Ver notas de Act.",
+	"blt_checking_updates_none_required" : "Todos los Mods BLT estan actualizados",
+	"blt_checking_updates_none_required_help" : "¡Ninguno de tus mods necesitan actualizarse!",
+
+	"blt_language_select" : "Idioma",
+	"blt_language_select_desc" : "Elige el Idioma que desees",
+	"blt_language_en" : "Ingles",
+	"blt_language_es" : "Español",
+	"blt_language_cht" : "Chino (Tradicional)",
+	"blt_language_de" : "Aleman",
+	"blt_language_fr" : "Francés",
+	"blt_language_ru" : "Ruso",
+	"blt_language_tr" : "Turco",
+	"blt_language_id" : "Indonesio",
+	"blt_language_it" : "Italiano",
+	"blt_language_zh-cn" : "Chino"
+
+	"blt_no_image" : "Sin Imagen",
+	"blt_no_name" : "Sin Nombre",
+	"blt_no_desc" : "Sin Descripcion"
+
+}
