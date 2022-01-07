@@ -1,0 +1,435 @@
+﻿--[[
+Translation file for Pirate Perfection.
+Language: Turkish
+Author: Yuripp3
+Version: v0.8
+]]
+{
+	--Common used strings
+	language = 'Turkish',
+	lan_version = '0.71',
+	back = "Geri",
+	exit = "Cikis",
+	next_page = "Sonraki Sayfa",
+	prev_page = "Onceki Sayfa",
+	retrn = "Geri Don",
+	btn_off = ' [Kapali]',
+	btn_on = ' [Acik]',
+	btn_close = 'Kapat',
+	host_only = " [Kurucu]",
+	
+	--Welcome dialog
+	welcome_title = 'Yarrrrrr!',
+	welcome_message = "Pirate Perfection'i ilk defa yuklediginize gore bu ilk acisiniz olmali. Ilk once readme.txt ve config.lua'ya goz atiniz ve tuslari istediginiz gibi ayarlamak istiyorsaniz keyconfig.lua'yi kullanarak istediginiz tusu kullanabilirsiniz.",
+	
+	--Help dialog
+	help_title = "Pirate Perfection Reborn'a hos geldiniz!",
+	help_site = 'Forumu ziyaret edebilirsiniz',
+	help_credits = 'Credits',
+	help_desc = 
+[[Cheats:
+Numpad 1 - Basit Payday 2 Hileleri/Karakter Menusu
+Numpad 2 - Kekleme Menusu/Stealth Menusu
+Numpad 3 - Soygun Menusu/Yaratma Menusu
+Numpad 4 - Troll Menusu
+Numpad 5 - Etkilesim Hileleri
+Numpad 6 - Envanter Menusu
+Numpad 7 - Silah Menusu
+Numpad 8 - Ekipman Menusu
+Numpad 9 - Gorev Menusu
+------------------------------
+F2 - Mod Menusu
+F4 - Tasima Hilesi(Aktif Olunca; birden fazla canta tasima)
+F5 - Kullanici Kod Bolumu
+F6 - Konfigurasyon Menusu
+X - Wallhack
+Orta Fare Tusu - Teleport
+------------------------------
+4 - Mermi Cantasi Koy
+5 - Saglik Cantasi Koy
+6 - Sentry Koy
+7 - Tripmine Koy
+8 - Jammer Koy
+9 - Bomba Cantasi Koy]],
+	
+	-- Pre-Game Menusu
+	set_level = "Seviyeni Ayarla",
+	level_title = "Seviye Menusu",
+	reset_money = "Parayi Sifirla",
+	add_money_1 = "1 Milyar Nakit + 4 Milyar Yurtdisi Hesabina",
+	add_money_2 = "100 Milyon Nakit + 400 Milyon Yurtdisi Hesabina",
+	add_money_3 = "10 Milyon Nakit + 40 Milyon Yurtdisi Hesabina",
+	add_money_4 = "1 Milyon Nakit + 4 Milyon Yurtdisi Hesabina",
+	money_title = "Para Menusu",
+	reset_points = "Skilleri Sifirla",
+	set_points = "Skill Puanlarini Ayarla",
+	unlock_all_skills = "Butun Skilleri Ac",
+	skill_title = "Skill Menusu",
+	reset_inf = "Infamy Seviyeni Sifirla",
+	set_inf = "Infamy Seviyeni Ayarla",
+	set_inf_points = "Infamy Puanlarini Ayarla",
+	inf_title = "Infamy Menusu",
+	unlock_weapons = "Butun Silahlari Ac",
+	unlock_weap_mods = "Butun Silah Modlarini Ac",
+	unlock_masks = "Butun Maskeleri Ac",
+	unlock_materials = "Butun Materyalleri Ac",
+	unlock_textures = "Butun Desenleri Ac",
+	unlock_colors = "Butun Renkleri Ac",
+	unlock_all = "Butun Itemleri Ac",
+	inv_title = "Envanter Menusu",
+	main_menu_title = "Oyun Oncesi Menusu",
+	unlock_slots = "Butun Slotlari Ac",
+	other_title = "Diger...",
+	unlock_achievements = "Butun Basarimlari Ac",
+	add_exp = "%s EXP Ekle",
+	clear_inventory_menu = "Remove items from inventory",
+    lock_all_items = "Butun Itemleri Kilitle",
+    clear_all_slots = "Envanteri Temizle",
+    clear_primaries_slots = "Butun Ana Silahlari Temizle",
+    clear_secondaries_slots = "Butun Ikinci Silahlari Temizle",
+	clear_masks_slots = "Butun Maskeleri Temizle",
+    no_weap_mod_limit = "Silahlara Koyulabilecek Eklenti Sinirini Kaldir",
+	level_revolver = "Seviye Dairesi",
+	lock_achievements = "Butun Basarimlari Kilitle",
+	
+	--Gelismis Envanter
+	inv_spec_menu = 'Gelismis Envanter Menusu',
+	inv_spec_menu_desc = 'Ne istiyorsan atabilirsin...',
+	inv_spec_masks = 'Maskeler',
+	inv_spec_colors = 'Renkler',
+	inv_spec_materials = 'Materyaller',
+	inv_spec_textures = 'Desenler',
+	inv_spec_weapon_mods = 'Silah Modlari',
+	inv_spec_masks_title = 'Butun Maskeler',
+	inv_spec_colors_title = 'Butun Renkler',
+	inv_spec_materials_title = 'Butun Materyaller',
+	inv_spec_textures_title = 'Butun Desenler',
+	inv_spec_weapon_mods_title = 'Butun Silah Modlari',
+	inv_spec_choose = 'Istedigini ekleyebilirsin...',
+	
+	--Karakter Menusu
+	char_menu = 'Karakter Menusu',
+	togg_godmode = 'Godmode',
+	togg_no_hit = 'Birisini Vurdugunda Dikkat Cekme',
+	togg_jumping = 'Depar Atarken Yuksege Ziplama',
+	togg_speed = 'Daha Hizli Depar',
+	togg_ammo = 'Sinirsiz Mermi',
+	togg_bullets = 'Patlayici Mermi',
+	togg_shoot_through_walls = 'Duvardan Sikma',
+	togg_crazyness = 'Arttirilmis Tarama Hizi',
+	togg_accurate = 'No Spread',
+	togg_recoil = 'No Recoil',
+	togg_melee_range = 'Uzun Mesafe Bicak Vurusu',
+	togg_melee_charge = 'Toggle v. fast melee charge time',
+	secure_carry = "Sirtindaki Butun Cantalari Secure'la",
+	going_to_jail = 'Teslim Ol',
+	outta_jail = 'Hapisten cik',
+	additional_option = "Ekstra Ayarlar",
+    no_headbob = "Depar Sallantisini Kapat",
+    increase_standard_speed = "Normal Kosma Hizini Yukselt",
+    inf_ammo_reload = "Sinirsiz Mermi(Mermi Degistirmeli)",
+    togg_kill_in_one_hit = "Silahinin Hasarini Arttir",
+    hacked_maskoff = "Soygunu Maskesiz Yap",
+    togg_infinite_stamina = "Sinirsiz Kondisyon",
+    togg_no_bag_cooldown = "Cantalarla Direkt Etkilesime Gec",
+    togg_increase_melee_dmg = "Yakin Dovus Silahinin Hasarini Arttir",
+    togg_no_flash_bangs = "Polisler Flash Atmaz",
+	togg_no_fall_damage = "Dusus Hasari Yok",
+	
+	--Malzemeler
+	unlock_all_preplaning = "Butun Pre-planning ozelliklerini Ac",
+	unlock_all_assets = "Butun Asset'leri Ac",
+	tools_menu = "Malzeme Menusu",
+	force_game_start = 'Oyunu Zorla Baslat (Kurucu Olmak Gerekir)',
+	spoof_detection_lvl = 'Farkedilme Dereceni Dusur',
+	
+	--Etkilesim Menusu
+	intm_title = "7 Farkli Etkilesim Ozelligi",
+	intm_description = "Hemencecik!",
+	speedy_the_robber = 'Her seyi Hemencecik Cal',
+	ecm_kiddie = 'Butun ATMleri Ac',
+	opn_all_vaults = "Butun Kasalari ve Kucuk Kasalari Ac",
+	c4_doors = "Kapilari Patlat",
+	remove_bags = "Haritada carry_drop Ozelligini Sil",
+	restore_drills = "Matkap Kur/Gelistir/Tekrar Baslat",
+	no_rats_for_you = "Kimyasallari Temizle",
+	grab_small_loot = "Butun Ufak Ganimetleri Al",
+	grab_bags = "Butun Cantalari Al(Tasima Hilesi Otomatik Olarak Acilir)",
+	grab_packages = "Butun Gage Paketlerini Al",
+	hack_machines = "Hemen 'Election Day' Soygununun 2. Gunune Gec",
+	hack_computers = "Butun Bilgisayarlari Hack'le (Big Bank)",
+	bag_people = 'Butun Cesetleri cantalara Koy',
+	barricade_windows = 'Butun Camlara Destek Kur',
+	answer_phones = 'Butun Telefonlara Cevap Ver',
+	
+	--Gelismis Etkilesim Menusu
+	intm_patches = 'Etkilesim Ayarlari...',
+	patch_int_all = 'Her Seyle Etkilesime Gec',
+	patch_int_speed1 = 'Aninda Etkilesim',
+	patch_int_speed2 = 'Hizli Etkilesim',
+	patch_int_normal = 'Etkilesim Zamanini Sifirla',
+	patch_int_distance = 'Uzun Mesafeli Etkilesim',
+	patch_int_nowalls  = 'Duvardan Etkilesim',
+	patch_instant_intimidation = 'Kutsal El(Polisi Aninda Pes Ettirme)',
+	patch_int_reboard = 'Reboarding',
+	patch_interact_and_look = "Bir seyle Ugrasirken Etrafa Rahatca Bakinabil",
+	
+	-- Stealth Menu
+	stealth_menu = "Stealth Menusu",
+	stealth_inf_menu = "Stealth Menusu Icin Diger Ozellikler",
+	inf_cable = "Sinirsiz Cable-tie",
+	inf_ecm_battery = "Sinirsiz Jammer Bataryasi",
+	inf_converts = "Sinirsiz Convert",
+	dis_cams = "Butun Kameralari Deaktive Et",
+	inf_pager_answ = "Sinirsiz Pager Cevaplari",
+	inf_body_bags = "Sinirsiz Body Bag",
+	steal_pagers = "Bicakla Oldurunce Pager Aramasin",
+	add_ecm = "Jammer Koy",
+	inf_follow_hostages = "Sinirsiz Sivil Takip Ettirme",
+	kill_all_npc = "Haritadaki Butun NPC'leri Oldur(Butun Kameralar'da Patlar)",
+	npc_menu = "NPC Ayarlari",
+	remote_camera_access = "Kameralari Kontrol Et",
+	cops_dont_shoot = "Polisler Sana Saldirmaz",
+	people_dont_call_police = "Hic Kimse Polisi Arayamaz",
+	prevent_panic_buttons = "Alarm Dugmeleri Deaktif",
+	lobotomize_ai = "Haritadaki Butun NPC'ler Heykele Donusur",
+	dont_shout_at_tied = "Gardiyanlar Elleri Bagli Sivilleri Gormez",
+	invisible_player = "NPC'ler Seni Gormez",
+	change_fov = "FOV Degistir",
+	
+	--Job Menu
+	job_menu_title = 'Soygun Menusu',
+	job_menu_description = 'Soygunlar hakkindaki her sey...',
+	tpro = ' Pro Job',
+	job_menu_single = 'Tek Basina Kurma',
+	job_menu_diff = 'Zorlugu Degistir',
+	job_menu_diff_c = ' (Mevcut: %s)',
+	job_menu_diff_t = 'Yeni Zorluk Sec',
+	diff_easy = 'Kolay',
+	diff_normal = 'Normal',
+	diff_hard = 'Zor',
+	diff_vhard = 'Cok Zor',
+	diff_overkill = 'Overkill',
+	diff_deathwish = 'Deathwish',
+	
+	-- Spoof Menu
+	spoof_menu = "Kekleme Isimleri",
+	change_name = "Ismini Degistir",
+	spoof_standard_names = "Normal Isimler",
+	spoof_donors_names = "Donor Isimleri",
+	spoof_pirates_names = "Korsan Isimleri",
+	
+	-- Inventory Menu
+	inventory_menu = "Envanter Menusu",
+	inventory_menu_desc = "Yagdir koc yagdir...",
+	add_items_menu = "Envanterine Item At",
+	togg_rain_bags = "Canta Yagdirma",
+	inventory_give_cash = 'Bir Anda Para Kazan',
+	inventory_money_title = 'Para Menusu',
+	secure_turrets_lg = "Butun Turret'leri Secure'la",
+	spawn_ammo = "Mermi Cantasi Koy",
+	spawn_artifact_statue = "Artifact Statue Koy",
+	spawn_cage_bag = "Kasa Cantasi Koy",
+	spawn_circuit = "Circuit Koy",
+	spawn_coke = "Kokain Cantasi Koy",
+	spawn_diamonds = "Elmas Cantasi Koy",
+	spawn_engine = "Engine Koy",
+	spawn_gold = "Altin Cantasi Koy",
+	spawn_grenades = "Bomba Cantasi Koy",
+	spawn_lance_bag = "Termal Matkap Koy",
+	spawn_lance_bag_large = "The Beast Cantasi Koy (Big Bank Matkabi)",
+	spawn_meth = "Metamfetamin Cantasi Koy",
+	spawn_money = "Para Cantasi Koy",
+	spawn_painting = "Resim Koy",
+	spawn_person = "Ceset Cantasi Koy",
+	spawn_samurai_suit = "Samuray Zirhini Koy",
+	spawn_turret = "Turret Cantasi Koy",
+	spawn_weapon = "Silah Cantasi Koy",
+	spawn_weapons = "Birden Fazla Silah Cantasi Koy",
+	modifiers = "Degistirici Menusu",
+	bag_throw_force = "Canta Atma Gucunu Arttir",
+	bag_no_speed_penalty = "Cantayla Kosarken Hizin Dusmez",
+	explosive_bags = "Butun Cantalar Patlayicili Olur",
+	
+	-- Items
+	lance_part = "Beast Parcasi Ver",
+	crowbar = "Levye Ver",
+	planks = "Kalas Ver",
+	lance = "Parca Ver",
+	acid = "Asit Ver",
+	bank_manager_key = "Banka Müdürü Kartini Ver",
+	thermite_paste = "Termit Macunu Ver",
+	keychain = "Anahtarlik Ver",
+	boards = "Tahta Ver",
+	hydrogen_chloride = "Hidrojen Klorur Ver",
+	caustic_soda = "Kostik Soda Ver",
+	cable_tie = "Cable-tie Ver",
+	chavez_key = "Chavez Anahtari Ver",
+
+	-- Spawn menu
+	spawn_menu = "Yaratma Menusu",
+	spawn_cops_menu = "Polis Yarat",
+	spawn_fbi_menu = "FBI Yarat",
+	spawn_swats_menu = "SWAT Yarat",
+	spawn_gangs_menu = "Gangster Yarat",
+	spawn_bg_cops_menu = "Muttefik Polis Yarat",
+	spawn_bg_fbi_menu = "Muttefik FBI Yarat",
+	spawn_bg_swats_menu = "Muttefik SWAT Yarat",
+	spawn_bg_gangs_menu = "Muttefik Gangster Yarat",
+	spawn_civs_menu = "Sivil Yarat",
+	spawn_settings = "Yaratma Ayarlari",
+	spawn_load_packages = "Paketleri Yukle",
+	spawn_position_menu = "Yaratma Yeri Ayarlari",
+	spawn_on_spawn_point = "Sectigin Yerde Yarat",
+	spawn_on_ray = "Namlunun Baktigi Yerde Yarat",
+	spawn_amount_menu = "Yaratilacak Kisi Sayisini Sec",
+	spawn_set_to = "%s Ayarla",
+	no_units_on_map = "Bu Haritada Bu NPC'yi Yaratamazsin",
+	spawn_civ_anim_menu = "Sivil Yaratma Animasyonlari",
+	spawn_ene_anim_menu = "Dusman Yaratma Animasyonlari",
+	spawn_other_anim_menu = "Diger Yaratma Animasyonlari",
+	spawn_props_menu = "Prop Yarat (BETA)",
+	spawn_props_menu_desc = "Haritada Olmayan NPC'leri Yaratmak Oyununuzu Cokertebilir!",
+	spawn_gage_package = "Gage Paketi Yarat(Rastgele)",
+	
+	-- Tips
+	spawn_menu_tips = {
+		"Ipucu: Ayarlarinizi kaydetmek icin config dosyanizi duzenleyin",
+		"Ipucu: cikartabileceginiz NPC'ler",
+		"Ipucu: Daha fazla NPC cikartmak istiyorsaniz paketleri yukleyin",
+	},
+	mod_menu_tips = { 
+		"Ipucu: Her seferinde bir tane mod tamam mi?",
+	},
+	
+	--Equipment menu
+	equip_menu_title = 'Envanter Menusu',
+	equip_sentry_infammo = 'Sinirsiz Sentry Mermisi',
+	equip_sentry_inv = "Sentry'ler Olumsuz",
+	equip_sentry_nades = "Sentry'ler Bomba Atar",
+	equip_infinite_bags = 'Sinirsiz Ekipman(Turret vs.)',
+	equip_drill_service = 'Otomatik Matkap Yeniden Baslatma',
+	equip_drill_instant = 'Butun Matkaplar Koyulur',
+	equip_inf_equipments = "Sinirsiz Ekipman(Anahtar vs.)",
+    equip_instant_deployments = "Aninda Yapma",
+	
+	-- Lego menu
+	lego_toggle = "%s Kaydeder",
+	lego_choose_file = "Degistirmek Istediginiz Dosyayi Secin",
+	lego_load_file = "Yukle",
+	lego_clear_file = "Temizle",
+	lego_menu = "Lego Menusu",
+	
+	--Exception messages
+	except_ok = 'Tamam',
+	except_cancel = 'Iptal',
+	except_ignore_futher = '(Bunu siktiret hadi oyuna girelim)',
+	except_title_warn = 'HATA!!!',
+	except_equipment_warn = 'Su anda oyununun koydugu sinirdan daha fazla ekipman koymaya calisiyorsun! Simdilik engelledim ama "Tamam"a basarsan seni daha fazla uyarmayacagim ama bu yaptiklarin seni sunucuda HILECI olarak gosterecek!',
+	except_grenades_warn = "3'ten fazla bomba atmaya calistin! Simdilik engelledim ama Tamama basarsan seni daha fazla uyarmayacagim ama bu yaptiklarin seni sunucuda HILECI olarak gosterecek!",
+	except_crash_title = 'Oyun CRASH verdi',
+	except_crash_warn = 'Oyun, Istenmeyen Bir Sekilde Kapandi. Crash Log gormek ister misin ?',
+	except_yes = 'Peki',
+	except_no = 'Gerek Yok',
+
+	-- Troll menu
+	troll_menu = "Troll Menusu",
+	troll_cops_to_bulld = "Oldurulen Polisler Bulldozer'e Donusecek",
+	troll_take_mask = "Maskeni cikar",
+	troll_interaction_with_other = "Diger Oyuncularla Ugras",
+	troll_interact_with = " %s Isimli Kisiyle Ugras  (id - %s)",
+	troll_no_players = "Haritadaki Butun Oyunculari Siler",
+	troll_spawn_gold_on_tm = "Butun Takima Altin cantasi Ver",
+	troll_spawn_money_on_tm = "Butun Takima Para cantasi Ver",
+	troll_spawn_ammo_on_tm = "Butun Takima Mermi cantasi Ver",
+	troll_teleport_to = "Sececegin Kisiye Isinlan",
+	troll_give_ammo_bag = "Mermi Cantasi Ver",
+	troll_give_ammo_bag_to_tm = "Butun Takima Mermi Canatasi Ver",
+	troll_give_ecm = "ECM Ver",
+    troll_give_ecm_to_tm = "Butun Takima ECM Ver",
+    troll_give_sentry = "Sentry Ver",
+    troll_give_sentry_to_tm = "Butun Takima Sentry Ver",
+    troll_give_tripmine = "Trip Mine Ver",
+    troll_give_tripmine_to_tm = "Butun Takima Trip Mine Ver",
+	troll_give_medic_bag = "Saglik Cantasi Ver",
+	troll_give_medic_bag_to_tm = "Butun Takima Saglik Cantasi Ver",
+	troll_spawn_gold_on_peer = "Sececegin Kisiye Altin Cantasi Ver",
+	troll_spawn_money_on_peer = "Sececegin Kisiye Para Cantasi Ver",
+	troll_spawn_ammo_on_peer = "Sececegin Kisiye Mermi Cantasi Ver",
+	troll_change_spawn_pos = "Oyuna Yeni Katilan Kisinin Dogacagi Yeri Degistir",
+	troll_send_peer_in_custody = "Sececegin Kisiyi Hapise Gonder",
+	troll_release_player = "Sececegin Kisiyi Hapisten Cikar",
+	troll_tase_player = "Sececegin Kisiyi Tase'le",
+	troll_arrest_player = "Sececegin Kisiyi Tutuklat",
+	troll_kill_player = "Sececegin Kisiyi Oldur",
+	troll_standart_player = "Sececegin Kisinin Durumunu Degistir",
+	troll_teleport_player = "Sececegin Kisiyi Yanina Isinla",
+	troll_send_tm_in_custody = "Butun Takimi Hapise Gonder",
+	troll_release_tm_from_jail = "Butun Takimi Hapisten cikar",
+	troll_tase_tm = "Butun Takimi Tase'le",
+	troll_arrest_tm = "Butun Takimi Tutuklat",
+	troll_kill_tm = "Butun Takimi oldur",
+	troll_standard_tm = "Butun Takimin Durumunu Degistir",
+	troll_increase_ladder = "Merdiven Uzunlugunu ve Genisligini Degistir",
+	troll_del_units = "Haritadaki Butun NPC'leri Sil",
+	troll_change_own_state = "Kendinle Ugras",
+	troll_activate_elements = "Ogeleri Aktiflestir",
+    troll_open_doors = "Butun Kapilari Ac",
+    troll_close_doors = "Butun Kapilari Kapat",
+    troll_open_vault = "Kasayi Ac",
+    troll_close_vault = "Kasayi Kapat",
+    troll_remove_head = "Dusmanlarin Kafalarini Yok Et",
+    troll_fill_deposits_money = "Butun Ufak Kasalari Parayla Doldur",
+	troll_replace_cops = "Butun Polisler Bulldozer Olur",
+	troll_change_statistic = "Durumunu Degistir",
+	chance = "Sans",
+	
+	--Weapon menu
+	weapon_menu_title = 'Silah Listesi',
+	weapons_from_inventory = 'Envanterinden Bir Silah Al',
+    weapon_primaries = 'Birincil Silahlar',
+    weapon_secondaries = 'Ikincil Silahlar',
+	
+	-- Mod menu
+	mod_menu = "Mod Menusu",
+	mod_superman = "Superman Modu",
+	mod_driver = "Driver Modu",
+	mod_lego = "Lego Modu",
+	mod_aimbot = "AimBot Modu",
+	
+	--Mission menu
+	mission_menu_title = 'Gorev Menusu',
+	mission_menu_desc = 'Soygunlarin Kendilerine Ozel Kodlari',
+	auto_cooker = 'Otomatik Metamfetamin Pisiricisi',
+	way_pointing = 'Butun Objelere Isaret Koy',
+	debug_hud = 'Debug Gorunumunu Ac',
+    mission_events = "Gorevlerin Alt Gorevleri",
+    assault = "Assault Cagir",
+    heli = "Helikopter Cagir",
+    open_vault = "Kasa Kapisini Ac",
+    call_car = "Polis Arabasi Cagir",
+	convert_all = 'Butun Dusmanlari Convertle',
+    intimidator = 'Pes Ettiriciyi Ac',
+	tie_civs = 'Butun Sivilleri Bagla',
+	
+	--Correct engine menu
+    cengine_menu_title = 'Dogru Enginei Bulma Menusu (Kurucuya Ozel)',
+    cengine_menu_desc = 'Yapmak istedigini sec',
+    cengine_menu_pickup = "Dogru Engine'i Al",
+    cengine_menu_spawn = "Dogru Engine'i Yarat",
+    cengine_menu_hud = "Dogru Engine'i HUD'da Goster",
+    cengine_menu_print = "Dogru Engine'i Konsola Cikart",
+	
+	--Update dialog
+	update_title = 'Yeni Versiyon Var!',
+	update_desc = 'Yeni Versiyon (v. %s) Var, Forumun Indirme Bolumune Gitmek Ister misin?',
+	update_goto = 'Indirme Bolumune Git',
+	
+	--Normalizer
+	Normalizer = 'Dikkat!!! Normalizer Kullanacaksin!',
+	Areyousure = 'Hiledeki Degistirdigin Butun Her seyi Sifirlamak Istedigine Emin misin?',
+	
+	-- Configuration menu
+    config_menu = "Konfigurasyon Menusu",
+    config_save_all = "Butun Ayarlarini Kayitla",
+}

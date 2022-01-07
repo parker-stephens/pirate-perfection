@@ -1,0 +1,449 @@
+﻿--[[
+Translation file for Pirate Perfection.
+Language: tchinese
+Version: v0.98
+Author: Translated by TheGamingLOL
+]]
+{
+        --Common used strings
+        language = 'tchinese',
+		lan_version = '0.98',
+        back = "返回",
+		exit = "退出",
+		next_page = "下一頁",
+		prev_page = "上一頁",
+		return = "回歸",
+		btn_off = ' [關]',
+		btn_on = ' [開]',
+		btn_close = '關閉',
+		host_only = " [衹限主機]",
+		btn_add = "增加",
+		btn_deb = "減少",
+		save = "保存",
+		reset = "重置",
+       	delete = "刪除",
+		load = "讀取",
+		rename = "改名",
+	   
+        --Welcome dialog
+        welcome_title = '喂!',
+		welcome_message = '如果這是你第一次使用完美海盜(Pirate Perfection)，請仔細閲讀 readme.txt和 config.lua ,假如你想自定義按鍵,那麽請打開 keyconfig.lua 進行對應功能按鍵編輯修改。',
+       
+        --Help dialog
+        help_title = '歡迎使用完美海盜重生(Pirate Perfection Reborn)',
+		help_site = '瀏覽我們的論壇',
+		help_credits = '感謝',
+		help_credits_desc = '',
+        help_desc =
+[[默認作弊按鍵:
+Numpad 1 - 主菜單/常用作弊菜單
+Numpad 2 - 隱蔽行動菜單
+Numpad 3 - 工作菜單/生成菜單
+Numpad 4 - 惡搞菜單
+Numpad 5 - 互動作弊
+Numpad 6 - 物品菜單
+Numpad 7 - 武器列表菜單
+Numpad 8 - 設備菜單
+Numpad 9 - 關卡菜單
+Numpad + - 關卡預備菜單
+------------------------------
+F1 - 幫助
+F2 - mod菜單
+F4 - 攜帶更多的包(啓用; 隱藏/攜帶模式)
+F5 - 用戶腳本
+F6 - 配置菜单
+X - 透視
+Middle Mouse Button - 傳送
+------------------------------
+5 - 設備配置菜單
+6 - 放置設備
+7 - 選擇上一個設備
+8 - 選擇下一個設備]],
+       
+        -- Main pre-game menu
+        set_level = "設置等級為",
+		level_title = "等級菜單",
+		reset_money = "重置金錢",
+		add_money_1 = "添加10億現金+40億離岸賬戶",
+		add_money_2 = "添加1億現金+4億離岸賬戶",
+		add_money_3 = "添加1000萬现金+4000萬離岸賬戶",
+		add_money_4 = "添加100萬现金+400萬離岸賬戶",
+        money_title = "金錢菜單",
+		reset_points = "充值技能點",
+		set_points = "設置技能點為",
+		unlock_all_skills = "解鎖所有技能",
+		skill_title = "技能菜單",
+        reset_inf = "重置惡名等級",
+		set_inf = "設置惡名等級為",
+		set_inf_points = "設置惡名點為",
+		inf_title = "惡名菜单",
+		unlock_weapons = "解鎖武器",
+        unlock_weap_mods = "解鎖武器配件",
+		unlock_masks = "解鎖面具",
+		unlock_materials = "解鎖材料",
+		unlock_textures = "解鎖紋理",
+		unlock_colors = "解鎖顔色",
+		unlock_all = "解鎖所有道具",
+        inv_title = "解鎖菜單",
+		main_menu_title = "主菜單",
+        unlock_slots = "解鎖所有檔位",
+		other_title = "其他",
+		unlock_achievements = "解鎖所有成就",
+		add_exp = "增加經驗",
+        clear_inventory_menu = "移除庫存中的道具",
+		lock_all_items = "鎖上所有道具",
+		clear_all_slots = "清理庫存",
+		clear_primaries_slots = "移除所有主武器",
+		clear_secondaries_slots = "移除所有副武器",
+		clear_masks_slots = "移除所有面具",
+		no_weap_mod_limit = "移除安裝后的修改限制",
+		level_revolver = "隨機等級",
+		lock_achievements = "鎖上所有成就",
+		unlock_tiers = "解鎖所有技能等级",
+		remove_exclamation = "移除感嘆標記",
+		set_perks = "增加perk點數",
+		reset_perk_points = "重置perk點數為0",
+		unlock_perks = "解鎖所有perks",
+		lock_perks = "鎖上所有perks",
+       
+        --Specific inventory
+        inv_spec_menu = '特定解鎖菜單',
+		inv_spec_menu_desc = '你想添加什麽樣的東西',
+		inv_spec_masks = '面具',
+		inv_spec_colors = '顏色',
+		inv_spec_materials = '材料',
+		inv_spec_textures = '紋理',
+		inv_spec_weapon_mods = '武器',
+		inv_spec_masks_title = '所有面具',
+		inv_spec_colors_title = '所有顏色',
+		inv_spec_materials_title = '所有材料',
+		inv_spec_textures_title = '所有纹理',
+		inv_spec_weapon_mods_title = '所有武器',
+		inv_spec_choose = '選擇你想要添加的',
+       
+        --Character menu
+        char_menu = '常用作弊菜單',
+		togg_godmode = '開關:上帝模式 （無限生命）',
+		togg_no_hit = '開關:無打擊注意力分散',
+		togg_jumping = '開關:提高跳躍高度',
+		togg_speed = '開關:提高跑步速度',
+		togg_ammo = '開關:無限子彈 (無需換彈)',
+		togg_bullets = '開關:爆炸子彈',
+        togg_shoot_through_walls = '開關:子彈穿墻',
+        togg_crazyness = '開關:射速增加',
+		togg_accurate = '開關:子彈不會擴散',
+		togg_recoil = '開關:無後座力',
+        togg_melee_range = '開關:更遠的近戰武器範圍',
+        togg_melee_charge = '開關:近戰武器無冷卻時間',
+		togg_melee_no_delay = '快速出拳',
+		secure_carry = '安全鎖定已攜帶的包',
+		going_to_jail = '向警方招供',
+		outta_jail = '越獄',
+		additional_option = "附加設置",
+		no_headbob = "行走時沒有搖搖頭",
+		increase_standard_speed = "提高標準速度",
+		inf_ammo_reload = "開關:無限子彈(需要換彈)",
+		togg_kill_in_one_hit = "開關:增加武器傷害",
+		hacked_maskoff = "拿下面具",
+		togg_infinite_stamina = "無限耐力",
+		togg_no_bag_cooldown = "無包冷卻時間",
+		togg_increase_melee_dmg = "增加近戰傷害",
+		togg_no_flash_bangs = "免疫閃光彈",
+		togg_no_fall_damage = "免疫摔傷",
+		annoyer_mode = "煩惱模式（說話沒有延遲）",
+		grenade_bullets = "武器發射手榴彈",
+		
+		--Tools
+		unlock_all_preplaning=“解鎖所有規劃圖紙”，
+		unlock_all_assets=“解鎖所有資產”，
+		tools_menu=“工具菜單”
+		force_game_start='強制遊戲開始“，
+		spoof_detection_lvl='降低探測級別“，
+       
+		--Interaction menu
+		intm_title = "互動菜單",
+		speedy_the_robber = '快速打劫',
+		ecm_kiddie = '所有ATM被破解',
+		opn_all_vaults = "打開所有的保險庫和存款箱",
+		c4_doors = "炸開所有門",
+		remove_bags = "刪除地圖上的所有鑽頭袋",
+		restore_drills = "放置/升級/重置所有鑽頭",
+		no_rats_for_you = "明確的化學物品",
+		grab_small_loot = "獲取所有小戰利品",
+		grab_bags = "獲取所有包(攜帶更多的包將會啟用)",
+		grab_packages = "收集所有Gage抵押品",
+		hack_machines = "快速的選舉日 第二日",
+		hack_computers = "所有電腦被駭(大銀行)",
+		bag_people = '所有屍體被裝袋',
+		barricade_windows = '所有窗口都被木板釘上',
+		answer_phones = '回答所有的手機',
+		revive = "復活所有玩家",
+		pickup_files = "拾取正確的文件(Hoxton 越獄第二日)",
+		open_doors = "打開所有門",
+		--Interaction menu, patches
+		intm_patches = '互動修改',
+		patch_int_all = '開關:與任何東西互動',
+		patch_int_speed1 = "開關:秒互動",
+		patch_int_speed2 = "開關:快速互動",
+		patch_int_normal = "開關:重置互動速度(變回正常)",
+		patch_int_distance = "開關:無限互動距離",
+		patch_int_nowalls = "開關:互動無視牆壁",
+		patch_int_reboard = "開關:reboard",
+		patch_instant_intimidation = "開關:秒恐嚇",
+		patch_interact_and_look = "開關:互動與看周圍",
+		patch_noone_downs = "沒人要了",
+		open_gift_boxes = "打開禮物",
+		rewire_circuit = "重新連接電路盒",
+		cut_glasses = "切割玻璃",
+		place_explosives = "安放所有炸藥",
+		
+		--Stealth menu
+		stealth_menu = "隱秘行動菜單",
+		stealth_inf_menu = "隱秘行動的無限設置",
+		inf_cable = "開關:無限的電纜線",
+		inf_ecm_battery = "開關:無限ecm電池",
+		inf_converts = "開關:無限警察轉換",
+		dis_cams = "開關:禁用攝像頭",
+		inf_pager_answ = "開關:無限對講機應答",
+		inf_body_bags = "開關:無限屍體袋",
+		steal_pagers = "開關:近戰時偷走對講機",
+		add_ecm = "增加ECM​​干擾器",
+		inf_follow_hostages = "開關:不限跟隨你的人質數量",
+		kill_all_npc = "殺死當前地圖的所有NPC(絕對隱秘行動)",
+		npc_menu = "NPC設置",
+		remote_camera_access = "遠程訪問攝像機",
+		cops_dont_shoot = "開關:警察不會射你",
+		people_dont_call_police = "開關:人們無法呼叫警察",
+		prevent_panic_buttons = "防止恐慌按鈕",
+		lobotomize_ai = "關閉AI",
+		dont_shout_at_tied = "警衛變瞎子",
+		invisible_player = "使AI看不見你(隱身)",
+		change_fov = "改變FOV",
+       
+        --Job menu
+        job_menu_title="工作菜單",
+		job_menu_description="所有可能玩的等級都在這裡',
+		tpro="專業工作",
+		job_menu_single="切換為單人模式",
+		job_menu_diff="更換難度",
+		job_menu_diff_c="（當前：%s）",
+		job_menu_diff_t="選擇新難度",
+		job_menu_escapes="逃脫",
+		job_menu_permission="許可",
+		job_menu_kick_opt="踢出設置",
+		job_menu_no_kick="禁止踢出"
+		job_menu_kick="啟用踢出",
+		job_menu_vote_kick="投票踢出",
+       
+		-- Inventory menu
+		inventory_menu = "物品菜單",
+		inventory_menu_desc = "選擇你想生成的袋子",
+		add_items_menu="添加道具到物品欄”
+		togg_rain_bags="開關：雨袋"
+		inventory_give_cash='給點即時現金',
+		inventory_money_title='金錢菜單',
+		secure_turrets_lg='即時保留所有包',
+		modifiers = "Modifier 菜單",
+		bag_throw_force="增加扔包的力度",
+		bag_no_speed_penalty="背包沒有速度懲罰",
+		explosive_bags="使所有包爆炸",
+		spawn_bag_menu="生成包菜單",
+		equipment_changer="更改設備",
+		change_equipment="更改設備為",
+		spawn = "生成",
+ 
+        -- Spawn menu
+        spawn_menu = "生成菜單",
+		spawn_cops_menu = "生成警察單位",
+		spawn_fbi_menu = "生成fbi探員單位",
+		spawn_swats_menu = "生成特警單位",
+		spawn_gangs_menu = "生成幫派單位",
+		spawn_bg_cops_menu = "生成警察保鏢單位",
+		spawn_bg_fbi_menu = "生成探員保鏢單位",
+		spawn_bg_swats_menu = "生成特警保鏢單位",
+		spawn_bg_gangs_menu = "生成幫派保鏢單位",
+		spawn_civs_menu = "生成平民單位",
+		spawn_settings = "生成設置",
+		spawn_load_packages = "加載設定",
+		spawn_position_menu = "生成位置設置",
+		spawn_on_spawn_point = "設置生成在生成點",
+		spawn_on_ray = "設置生成在十字準星位置",
+		spawn_amount_menu = "單位生成數量",
+		spawn_set_to = "設置為",
+		no_units_on_map = "你無法在當前地圖生成這些單位",
+		spawn_civ_anim_menu = "生成平民的動作",
+		spawn_ene_anim_menu = "生成敵人的動作",
+		spawn_other_anim_menu = "生成其他的動作",
+		spawn_props_menu = "生成道具",
+		spawn_gage_package = "生成抵押品包",
+		spawn_on_random_point = "設置生成隨機點",
+		
+		--Equipment menu
+		equip_menu_title = '設備菜單',
+		equip_sentry_infammo = '開關:哨兵槍無限彈藥',
+		equip_sentry_inv = '開關:無敵哨兵槍',
+		equip_sentry_nades = '開關:哨兵槍發射榴彈',
+		equip_infinite_bags = '開關:設備用不完',
+		equip_drill_service = '開關:鑽頭永不壞',
+		equip_drill_instant = '開關:鑽頭秒開',
+		equip_inf_equipments = "無限設備",
+		equip_instant_deployments = "秒部署",
+		equip_warning = "(需要激活遠方放置才可以正常運行)",
+		equip_desc = "單擊右鍵綁定選項到自定按鈕",
+		
+        -- Lego menu
+		lego_choose_file = "選擇文件",
+		lego_load_file = "加載文件",
+		lego_clear_file = "清理文件",
+		lego_create = "創建新文件",
+		lego_menu = "Lego菜單",
+		
+		--Exception messages
+		except_ok = '好',
+		except_cancel = '取消',
+		except_ignore_futher = '(不再給我這種警告)',
+		except_title_warn = '警告!!!',
+		except_equipment_warn = '你企圖生成更多設備或生成不同設備的行為已被阻止! 當你按下(好)這個鍵，將不再重複提示並且不會受到任何行為阻止,但之後你極有可能會被標記作弊者!如果在別人房間繼續進行該行為是無法起作用,同時你將會被標記為作弊者!',
+		except_gr​​enades_warn = '你嘗試擁有超過3顆手雷的行為已被阻止! 當你按下(好)這個鍵，將不再重複提示並且不會受到任何行為阻止,但之後你極有可能會被標記作弊者!',
+		except_crash_title = '崩潰發現',
+		except_crash_warn = '遊戲似乎沒有以正確方式結束, 你想看崩潰日誌?',
+		except_yes = '是',
+		except_no = '否',
+	 
+ 
+        -- Troll menu
+		troll_menu = "惡搞菜單",
+		troll_cops_to_bulld = "死警察變裝甲警",
+		troll_take_mask = "摘掉面具",
+		troll_interaction_with_other = "與其他玩家互動",
+		troll_interact_with = "與%s (id - %s) 互動",
+		troll_no_players = "地圖上沒有其他玩家",
+		troll_teleport_to = "傳送到玩家",
+		troll_change_spawn_pos = "更改出現新玩家的位置",
+		troll_send_peer_in_custody = "監禁玩家",
+		troll_release_player = "越獄玩家",
+		troll_tase_player = "眩暈玩家",
+		troll_arrest_player = "逮捕玩家",
+		troll_kill_player = "殺死玩家",
+		troll_standart_player = "玩家狀態更改為標準",
+		troll_teleport_player = "將玩家傳送到你的位​​置",
+		troll_send_tm_in_custody = "監禁所有人",
+		troll_release_tm_from_jail = "越獄所有人",
+		troll_tase_tm = "眩暈所有人",
+		troll_arrest_tm = "逮捕所有人",
+		troll_kill_tm = "殺死所有人",
+		troll_standard_tm = "所有人狀態更改為標準",
+		troll_increase_ladder = "增加梯子高度和寬度",
+		troll_del_units = "刪除地圖中所有同步單位",
+		troll_change_own_state = "與自己互動",
+		troll_activate_elements = "激活事件",
+		troll_open_doors = "打開所有門",
+		troll_close_doors = "鎖上所有門",
+		troll_open_vault = "打開保險庫",
+		troll_close_vault = "鎖上保險庫",
+		troll_remove_head = "除去敵人的頭",
+		troll_fill_deposits_money = "存款箱裡都是錢",
+		troll_replace_cops = "用裝甲警代替警察",
+		troll_change_statistic = "改變你的統計數據",
+		chance = "更改",
+		troll_team_god_mode = "給你的團隊開上帝模式",
+		troll_interact_team = "與團隊互動",
+		troll_give_equipments = "給予設備",
+		troll_give = "給予",
+		troll_give_bags = "給予包",
+		troll_give_items = "給予道具",
+		troll_kick_player = "踢出玩家",
+		troll_kick_all_players = "踢出所有玩家",
+	
+		--Weapon menu
+		weapon_menu_title = '武器列表',
+		weapons_from_inventory = '選擇庫存中的武器',
+		weapon_primaries = '主武器',
+		weapon_secondaries = '副武器',
+		melee_weapons = '近戰武器',
+		armors = '裝甲',
+
+		-- Mod menu
+		mod_menu = "mod菜單",
+		mod_superman = "超人",
+		mod_driver = "司機",
+		mod_lego = "樂高",
+		mod_aimbot = "自動瞄準",
+		mod_wavehouse = "安全屋生存",
+		mod_pvp = "玩家vs玩家",
+		mod_helicopter = "直升機",
+
+		--Mission menu
+		mission_menu_title = '關卡菜單',
+		mission_menu_desc = '特定搶劫腳本',
+		auto_cooker = '開關:冰毒自動合成',
+		way_pointing = '開關:路標項目',
+		debug_hud = '開關:調試窗口',
+		mission_events = "任務事件",
+		assault = "呼叫襲擊",
+		heli = "呼叫直升機",
+		open_vault = "打開保險庫門",
+		call_car = "呼叫警車",
+		convert_all = '轉換所有敵人',
+		intimidator = '開關:威脅者',
+		tie_civs = '綁住所有平民',
+		shutdown_dialogs = '關閉對話框',
+		spawn_plan = "生成藍本",
+
+		--Correct engine menu
+		cengine_menu_title = '正確引擎菜單',
+		cengine_menu_desc = '幫你選擇正確的引擎',
+		cengine_menu_pickup = "拾取正確的引擎",
+		cengine_menu_spawn = "生產正確的引擎",
+		cengine_menu_hud = "在界面顯示正確的引擎",
+		cengine_menu_print = "打印正確引擎到控制台",
+
+		--Update dialog
+		update_title = '有新的版本可用!',
+		update_desc = '新版本(v. %s) 可用, 你想訪問論壇下載這個更新?',
+		update_goto = '訪問並下載',
+		
+		--Normalizer
+		Normalizer = '關閉修改器',
+		Normalizer_desc = '"關閉所有修改" - 卸下所有已啟動的修改'\n"重啟修改" - 重啟修改,在你想重載其他已修改的插件或重啟修改器時有用。
+		normalizer_warn = '警告!!!',
+		Areyousure = '你確定你想要關閉所有修改功能? 你的遊戲可能會崩潰。 ',
+		normalizer_restore = "關閉所有修改",
+		normalizer_reboot = "重啟修改",
+		
+		-- Configuration menu
+		config_menu = "配置菜單",
+		config_create = "新增配置檔",
+		config_load = "讀取配置檔",
+		config_rename = "重命名配置檔",
+		config_delete = "刪除配置檔",
+		config_empty = "找不到任何配置檔",
+		config_type = "命名為",
+		config_save_all = "保存當前所有設置",
+		config_save_default = "默認已激活的配置",
+		config_are_you_sure = "已有相同名字的配置. 你確定把它覆蓋嗎？",
+		config_current = "已激活的配置",
+
+		-- WayPoints menu
+		wp_title = "路標菜單 (只限在關卡)",
+		wp_show_all = "顯示所有路標",
+
+		--Localization menu
+		menu_wait = "等待",
+		loc_menu_wait_desc = "正在下載可用語言列表...",
+		loc_menu_title = "可用語言",
+		loc_menu_desc = "選擇你想下載或更新的語言。\n現在激活的語言: '%s'\n語言版本: '%s'",
+		loc_menu_success = "更新成功",
+		loc_menu_succ_desc = "你想換語言嗎？\n(變動需要需要重啟遊戲或遊玩關卡才生效)",
+		loc_menu_fail = "錯誤!!!",
+		loc_menu_fail_desc = "語言下載錯誤, 請參考errlog.txt 可看到更多資訊。",
+
+		--Parallel tasks messages
+		prl_too_long = "太長時間",
+		prl_too_long_desc = "有些工作還沒有完成, 你確定想終止所有工作和強行繼續遊戲嗎?",
+		prl_proceed = "強行繼續",
+
+		--Other
+		dropin_join_progress = " 正在加入 ",
+		dropin_joined = " 成功加入遊戲。",
+}
